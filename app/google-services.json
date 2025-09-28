@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "374245290099",
+    "project_id": "dsalgo-67b17",
+    "storage_bucket": "dsalgo-67b17.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374245290099:android:5ae0312e1080499ec6ba06",
+        "android_client_info": {
+          "package_name": "com.example.dsalgo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Znjv0Zm_oikLy2oL82vOb1O5GCRs8vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

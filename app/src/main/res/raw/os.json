@@ -1,0 +1,1181 @@
+{
+  "subject": "Operating System (OS)",
+  "total_questions": 90,
+  "difficulty_distribution": {
+    "easy": 30,
+    "medium": 30,
+    "hard": 30
+  },
+  "questions": [
+    {
+      "id": "os-easy-001",
+      "question": "What is an Operating System?",
+      "options": [
+        "A hardware component",
+        "System software that manages computer hardware and software resources",
+        "An application program",
+        "A programming language"
+      ],
+      "correct_answer": "System software that manages computer hardware and software resources",
+      "level": "easy",
+      "explanation": "An Operating System is system software that acts as an interface between users and computer hardware, managing resources and providing services."
+    },
+    {
+      "id": "os-easy-002",
+      "question": "Which of the following is NOT a function of an Operating System?",
+      "options": [
+        "Process Management",
+        "Memory Management",
+        "Compiling Programs",
+        "File Management"
+      ],
+      "correct_answer": "Compiling Programs",
+      "level": "easy",
+      "explanation": "Compiling programs is done by compilers, not the OS. The OS manages processes, memory, files, and other system resources."
+    },
+    {
+      "id": "os-easy-003",
+      "question": "What is a process in an Operating System?",
+      "options": [
+        "A program stored on disk",
+        "A program in execution",
+        "A hardware component",
+        "A file on the system"
+      ],
+      "correct_answer": "A program in execution",
+      "level": "easy",
+      "explanation": "A process is a program that is currently being executed by the CPU, including its program code, data, and execution context."
+    },
+    {
+      "id": "os-easy-004",
+      "question": "Which of the following is a type of Operating System?",
+      "options": [
+        "Batch Operating System",
+        "Real-time Operating System",
+        "Distributed Operating System",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "level": "easy",
+      "explanation": "All mentioned types are valid classifications of operating systems based on their design and intended use."
+    },
+    {
+      "id": "os-easy-005",
+      "question": "What is multitasking in an Operating System?",
+      "options": [
+        "Running one program at a time",
+        "Running multiple programs simultaneously",
+        "Storing multiple files",
+        "Managing hardware devices"
+      ],
+      "correct_answer": "Running multiple programs simultaneously",
+      "level": "easy",
+      "explanation": "Multitasking allows an operating system to execute multiple processes concurrently by rapidly switching between them."
+    },
+    {
+      "id": "os-easy-006",
+      "question": "What is the kernel in an Operating System?",
+      "options": [
+        "The user interface",
+        "The core part that manages system resources",
+        "Application software",
+        "Hardware component"
+      ],
+      "correct_answer": "The core part that manages system resources",
+      "level": "easy",
+      "explanation": "The kernel is the central component of an OS that manages system resources, hardware communication, and provides essential services."
+    },
+    {
+      "id": "os-easy-007",
+      "question": "What is virtual memory?",
+      "options": [
+        "Physical RAM only",
+        "Technique that uses disk space to extend apparent memory size",
+        "Cache memory",
+        "ROM memory"
+      ],
+      "correct_answer": "Technique that uses disk space to extend apparent memory size",
+      "level": "easy",
+      "explanation": "Virtual memory uses disk storage to simulate additional RAM, allowing programs to use more memory than physically available."
+    },
+    {
+      "id": "os-easy-008",
+      "question": "What is a thread?",
+      "options": [
+        "A lightweight process",
+        "A file on disk",
+        "A hardware component",
+        "An input device"
+      ],
+      "correct_answer": "A lightweight process",
+      "level": "easy",
+      "explanation": "A thread is the smallest unit of execution within a process, often called a lightweight process because threads share resources within a process."
+    },
+    {
+      "id": "os-easy-009",
+      "question": "What is the purpose of device drivers?",
+      "options": [
+        "To compile programs",
+        "To provide interface between OS and hardware devices",
+        "To manage files",
+        "To create user interfaces"
+      ],
+      "correct_answer": "To provide interface between OS and hardware devices",
+      "level": "easy",
+      "explanation": "Device drivers are software components that allow the operating system to communicate with specific hardware devices."
+    },
+    {
+      "id": "os-easy-010",
+      "question": "What is CPU scheduling?",
+      "options": [
+        "Planning CPU upgrades",
+        "Determining which process gets CPU time",
+        "Installing CPU software",
+        "Cooling the CPU"
+      ],
+      "correct_answer": "Determining which process gets CPU time",
+      "level": "easy",
+      "explanation": "CPU scheduling is the process by which the OS decides which process should be executed by the CPU at any given time."
+    },
+    {
+      "id": "os-easy-011",
+      "question": "What is a file system?",
+      "options": [
+        "A type of hardware",
+        "Method of organizing and storing files on storage devices",
+        "A programming language",
+        "A network protocol"
+      ],
+      "correct_answer": "Method of organizing and storing files on storage devices",
+      "level": "easy",
+      "explanation": "A file system defines how data is stored, organized, and retrieved on storage devices like hard drives and SSDs."
+    },
+    {
+      "id": "os-easy-012",
+      "question": "What is system call?",
+      "options": [
+        "A phone call to technical support",
+        "Interface between user programs and OS services",
+        "Hardware interrupt",
+        "Network communication"
+      ],
+      "correct_answer": "Interface between user programs and OS services",
+      "level": "easy",
+      "explanation": "System calls provide a programmatic interface for user applications to request services from the operating system."
+    },
+    {
+      "id": "os-easy-013",
+      "question": "What is the difference between program and process?",
+      "options": [
+        "No difference",
+        "Program is passive code, process is active execution",
+        "Process is stored on disk, program is in memory",
+        "Program runs faster than process"
+      ],
+      "correct_answer": "Program is passive code, process is active execution",
+      "level": "easy",
+      "explanation": "A program is passive code stored on disk, while a process is the active execution of that program in memory with associated resources."
+    },
+    {
+      "id": "os-easy-014",
+      "question": "What is multiprogramming?",
+      "options": [
+        "Writing multiple programs",
+        "Having multiple programs in memory simultaneously",
+        "Using multiple programming languages",
+        "Installing multiple compilers"
+      ],
+      "correct_answer": "Having multiple programs in memory simultaneously",
+      "level": "easy",
+      "explanation": "Multiprogramming allows multiple programs to be loaded in memory at the same time, improving CPU utilization."
+    },
+    {
+      "id": "os-easy-015",
+      "question": "What is an interrupt?",
+      "options": [
+        "A programming error",
+        "Signal to CPU to stop current execution and handle an event",
+        "A network failure",
+        "A file corruption"
+      ],
+      "correct_answer": "Signal to CPU to stop current execution and handle an event",
+      "level": "easy",
+      "explanation": "An interrupt is a signal that causes the CPU to temporarily stop its current execution and handle a specific event or request."
+    },
+    {
+      "id": "os-easy-016",
+      "question": "What is a shell in an Operating System?",
+      "options": [
+        "The physical case of computer",
+        "Command-line interface to interact with OS",
+        "A type of memory",
+        "A hardware component"
+      ],
+      "correct_answer": "Command-line interface to interact with OS",
+      "level": "easy",
+      "explanation": "A shell is a command-line interface that allows users to interact with the operating system by typing commands."
+    },
+    {
+      "id": "os-easy-017",
+      "question": "What is the boot process?",
+      "options": [
+        "Shutting down the computer",
+        "Process of starting up the computer and loading the OS",
+        "Installing new software",
+        "Backing up files"
+      ],
+      "correct_answer": "Process of starting up the computer and loading the OS",
+      "level": "easy",
+      "explanation": "The boot process is the sequence of steps that occur when a computer starts up, culminating in loading the operating system."
+    },
+    {
+      "id": "os-easy-018",
+      "question": "What is process synchronization?",
+      "options": [
+        "Running processes at same speed",
+        "Coordinating execution of processes to ensure correct behavior",
+        "Starting processes simultaneously",
+        "Stopping processes together"
+      ],
+      "correct_answer": "Coordinating execution of processes to ensure correct behavior",
+      "level": "easy",
+      "explanation": "Process synchronization involves coordinating the execution of multiple processes to prevent conflicts and ensure data consistency."
+    },
+    {
+      "id": "os-easy-019",
+      "question": "What is a deadlock?",
+      "options": [
+        "A locked door",
+        "Situation where processes wait for each other indefinitely",
+        "A security feature",
+        "A type of memory"
+      ],
+      "correct_answer": "Situation where processes wait for each other indefinitely",
+      "level": "easy",
+      "explanation": "Deadlock occurs when two or more processes are blocked forever, waiting for each other to release resources."
+    },
+    {
+      "id": "os-easy-020",
+      "question": "What is swapping in memory management?",
+      "options": [
+        "Exchanging hardware components",
+        "Moving processes between main memory and disk",
+        "Changing file locations",
+        "Updating software versions"
+      ],
+      "correct_answer": "Moving processes between main memory and disk",
+      "level": "easy",
+      "explanation": "Swapping is a memory management technique where processes are moved between main memory and secondary storage to free up memory."
+    },
+    {
+      "id": "os-easy-021",
+      "question": "What is the purpose of BIOS?",
+      "options": [
+        "To provide internet connectivity",
+        "Basic Input/Output System that initializes hardware during boot",
+        "To manage files",
+        "To compile programs"
+      ],
+      "correct_answer": "Basic Input/Output System that initializes hardware during boot",
+      "level": "easy",
+      "explanation": "BIOS (Basic Input/Output System) is firmware that initializes and tests hardware components during the computer boot process."
+    },
+    {
+      "id": "os-easy-022",
+      "question": "What is a zombie process?",
+      "options": [
+        "A malicious process",
+        "A process that has completed but still has entry in process table",
+        "A very slow process",
+        "A process that consumes too much memory"
+      ],
+      "correct_answer": "A process that has completed but still has entry in process table",
+      "level": "easy",
+      "explanation": "A zombie process is a process that has finished execution but still has an entry in the process table, waiting for its parent to read its exit status."
+    },
+    {
+      "id": "os-easy-023",
+      "question": "What is fragmentation in memory management?",
+      "options": [
+        "Breaking files into pieces",
+        "Wasted space in memory due to allocation patterns",
+        "Damaging memory hardware",
+        "Increasing memory speed"
+      ],
+      "correct_answer": "Wasted space in memory due to allocation patterns",
+      "level": "easy",
+      "explanation": "Fragmentation refers to wasted memory space that occurs when memory is allocated and deallocated in patterns that leave unusable gaps."
+    },
+    {
+      "id": "os-easy-024",
+      "question": "What is the difference between preemptive and non-preemptive scheduling?",
+      "options": [
+        "No difference",
+        "Preemptive can interrupt running processes, non-preemptive cannot",
+        "Non-preemptive is faster",
+        "Preemptive uses more memory"
+      ],
+      "correct_answer": "Preemptive can interrupt running processes, non-preemptive cannot",
+      "level": "easy",
+      "explanation": "Preemptive scheduling allows the OS to interrupt currently running processes, while non-preemptive scheduling waits for processes to voluntarily give up CPU."
+    },
+    {
+      "id": "os-easy-025",
+      "question": "What is a semaphore?",
+      "options": [
+        "A type of memory",
+        "Synchronization primitive used to control access to shared resources",
+        "A hardware device",
+        "A file format"
+      ],
+      "correct_answer": "Synchronization primitive used to control access to shared resources",
+      "level": "easy",
+      "explanation": "A semaphore is a synchronization mechanism that controls access to shared resources by maintaining a counter of available resources."
+    },
+    {
+      "id": "os-easy-026",
+      "question": "What is the role of Memory Management Unit (MMU)?",
+      "options": [
+        "To increase memory size",
+        "To translate virtual addresses to physical addresses",
+        "To clean memory",
+        "To backup memory"
+      ],
+      "correct_answer": "To translate virtual addresses to physical addresses",
+      "level": "easy",
+      "explanation": "The MMU is hardware that translates virtual memory addresses used by programs into physical addresses in RAM."
+    },
+    {
+      "id": "os-easy-027",
+      "question": "What is a page fault?",
+      "options": [
+        "An error in program code",
+        "Exception when requested page is not in main memory",
+        "Hardware malfunction",
+        "Network connection error"
+      ],
+      "correct_answer": "Exception when requested page is not in main memory",
+      "level": "easy",
+      "explanation": "A page fault occurs when a program tries to access a page that is not currently in main memory, triggering the OS to load it from storage."
+    },
+    {
+      "id": "os-easy-028",
+      "question": "What is the difference between kernel mode and user mode?",
+      "options": [
+        "No difference",
+        "Kernel mode has full hardware access, user mode has restricted access",
+        "User mode is faster",
+        "Kernel mode uses more memory"
+      ],
+      "correct_answer": "Kernel mode has full hardware access, user mode has restricted access",
+      "level": "easy",
+      "explanation": "Kernel mode allows full access to hardware and system resources, while user mode restricts access for security and stability."
+    },
+    {
+      "id": "os-easy-029",
+      "question": "What is thrashing?",
+      "options": [
+        "Destroying files",
+        "Excessive page fault activity degrading system performance",
+        "Fast CPU processing",
+        "Organizing files efficiently"
+      ],
+      "correct_answer": "Excessive page fault activity degrading system performance",
+      "level": "easy",
+      "explanation": "Thrashing occurs when a system spends more time managing page faults than executing processes, severely degrading performance."
+    },
+    {
+      "id": "os-easy-030",
+      "question": "What is a context switch?",
+      "options": [
+        "Changing user accounts",
+        "Storing and restoring process state when switching between processes",
+        "Switching between applications",
+        "Changing system settings"
+      ],
+      "correct_answer": "Storing and restoring process state when switching between processes",
+      "level": "easy",
+      "explanation": "Context switch is the process of saving the current state of a process and loading the state of another process to switch CPU execution."
+    },
+    {
+      "id": "os-medium-001",
+      "question": "What is the difference between logical and physical address space?",
+      "options": [
+        "No difference",
+        "Logical addresses are generated by CPU, physical addresses are actual memory locations",
+        "Physical addresses are virtual, logical addresses are real",
+        "Logical addresses are faster to access"
+      ],
+      "correct_answer": "Logical addresses are generated by CPU, physical addresses are actual memory locations",
+      "level": "medium",
+      "explanation": "Logical addresses are generated by the CPU and translated by MMU to physical addresses, which are actual locations in physical memory."
+    },
+    {
+      "id": "os-medium-002",
+      "question": "What is the Banker's Algorithm used for?",
+      "options": [
+        "Banking software development",
+        "Deadlock avoidance by ensuring safe resource allocation",
+        "Network security",
+        "File encryption"
+      ],
+      "correct_answer": "Deadlock avoidance by ensuring safe resource allocation",
+      "level": "medium",
+      "explanation": "The Banker's Algorithm is a deadlock avoidance algorithm that determines if resource allocation will leave the system in a safe state."
+    },
+    {
+      "id": "os-medium-003",
+      "question": "What are the necessary conditions for deadlock to occur?",
+      "options": [
+        "Only mutual exclusion",
+        "Mutual exclusion, hold and wait, no preemption, circular wait",
+        "Only circular wait",
+        "Only hold and wait"
+      ],
+      "correct_answer": "Mutual exclusion, hold and wait, no preemption, circular wait",
+      "level": "medium",
+      "explanation": "Deadlock requires all four conditions: mutual exclusion, hold and wait, no preemption, and circular wait (Coffman conditions)."
+    },
+    {
+      "id": "os-medium-004",
+      "question": "What is the difference between internal and external fragmentation?",
+      "options": [
+        "No difference",
+        "Internal is unused space within allocated blocks, external is unused space between blocks",
+        "Internal is in RAM, external is on disk",
+        "Internal is larger than external"
+      ],
+      "correct_answer": "Internal is unused space within allocated blocks, external is unused space between blocks",
+      "level": "medium",
+      "explanation": "Internal fragmentation is wasted space within allocated memory blocks, while external fragmentation is free space scattered between allocated blocks."
+    },
+    {
+      "id": "os-medium-005",
+      "question": "What is the purpose of Translation Lookaside Buffer (TLB)?",
+      "options": [
+        "To store programs",
+        "Cache for frequently used page table entries to speed up address translation",
+        "To store user data",
+        "To manage network connections"
+      ],
+      "correct_answer": "Cache for frequently used page table entries to speed up address translation",
+      "level": "medium",
+      "explanation": "TLB is a cache that stores recently used virtual-to-physical address translations to speed up memory access."
+    },
+    {
+      "id": "os-medium-006",
+      "question": "What is the difference between symmetric and asymmetric multiprocessing?",
+      "options": [
+        "No difference",
+        "Symmetric treats all processors equally, asymmetric assigns specific roles",
+        "Symmetric is slower",
+        "Asymmetric uses more memory"
+      ],
+      "correct_answer": "Symmetric treats all processors equally, asymmetric assigns specific roles",
+      "level": "medium",
+      "explanation": "In SMP, all processors are treated equally and can run any task, while in AMP, processors have specific assigned roles."
+    },
+    {
+      "id": "os-medium-007",
+      "question": "What is copy-on-write (COW)?",
+      "options": [
+        "A file copying method",
+        "Memory optimization where pages are copied only when modified",
+        "A backup strategy",
+        "A printing technique"
+      ],
+      "correct_answer": "Memory optimization where pages are copied only when modified",
+      "level": "medium",
+      "explanation": "Copy-on-write is an optimization where pages are shared between processes until one process modifies the page, then a copy is made."
+    },
+    {
+      "id": "os-medium-008",
+      "question": "What is the difference between mutex and semaphore?",
+      "options": [
+        "No difference",
+        "Mutex is binary (0 or 1), semaphore can have multiple values",
+        "Semaphore is binary, mutex can have multiple values",
+        "Mutex is faster than semaphore"
+      ],
+      "correct_answer": "Mutex is binary (0 or 1), semaphore can have multiple values",
+      "level": "medium",
+      "explanation": "A mutex is a binary semaphore (locked/unlocked) for mutual exclusion, while a counting semaphore can have multiple values for resource counting."
+    },
+    {
+      "id": "os-medium-009",
+      "question": "What is the aging technique in process scheduling?",
+      "options": [
+        "Running old processes first",
+        "Gradually increasing priority of waiting processes to prevent starvation",
+        "Deleting old processes",
+        "Slowing down processes over time"
+      ],
+      "correct_answer": "Gradually increasing priority of waiting processes to prevent starvation",
+      "level": "medium",
+      "explanation": "Aging gradually increases the priority of processes that have been waiting for a long time to prevent starvation."
+    },
+    {
+      "id": "os-medium-010",
+      "question": "What is demand paging?",
+      "options": [
+        "Requesting more memory",
+        "Loading pages into memory only when they are accessed",
+        "Paging on demand from users",
+        "Sorting pages by priority"
+      ],
+      "correct_answer": "Loading pages into memory only when they are accessed",
+      "level": "medium",
+      "explanation": "Demand paging is a virtual memory management technique where pages are loaded into physical memory only when they are accessed."
+    },
+    {
+      "id": "os-medium-011",
+      "question": "What is the working set model?",
+      "options": [
+        "A team of developers",
+        "Set of pages referenced by a process in a time window",
+        "Set of running processes",
+        "Set of available resources"
+      ],
+      "correct_answer": "Set of pages referenced by a process in a time window",
+      "level": "medium",
+      "explanation": "The working set model defines the set of pages that a process has referenced within a recent time window, used for memory management decisions."
+    },
+    {
+      "id": "os-medium-012",
+      "question": "What is the difference between monolithic and microkernel architecture?",
+      "options": [
+        "No difference",
+        "Monolithic has all services in kernel space, microkernel has minimal kernel with services in user space",
+        "Microkernel is larger than monolithic",
+        "Monolithic is newer than microkernel"
+      ],
+      "correct_answer": "Monolithic has all services in kernel space, microkernel has minimal kernel with services in user space",
+      "level": "medium",
+      "explanation": "Monolithic kernels include all OS services in kernel space, while microkernels provide minimal functionality with services running in user space."
+    },
+    {
+      "id": "os-medium-013",
+      "question": "What is priority inversion?",
+      "options": [
+        "Changing process priorities randomly",
+        "Lower priority process blocks higher priority process due to resource dependency",
+        "Running processes in reverse priority order",
+        "Inverting the priority queue"
+      ],
+      "correct_answer": "Lower priority process blocks higher priority process due to resource dependency",
+      "level": "medium",
+      "explanation": "Priority inversion occurs when a high-priority process is blocked by a lower-priority process that holds a required resource."
+    },
+    {
+      "id": "os-medium-014",
+      "question": "What is the difference between hard and soft real-time systems?",
+      "options": [
+        "No difference",
+        "Hard real-time has strict deadlines, soft real-time has flexible deadlines",
+        "Hard real-time is faster",
+        "Soft real-time uses more memory"
+      ],
+      "correct_answer": "Hard real-time has strict deadlines, soft real-time has flexible deadlines",
+      "level": "medium",
+      "explanation": "Hard real-time systems must meet deadlines without exception, while soft real-time systems can tolerate occasional deadline misses."
+    },
+    {
+      "id": "os-medium-015",
+      "question": "What is belady's anomaly?",
+      "options": [
+        "A memory error",
+        "Phenomenon where increasing page frames can increase page faults in FIFO",
+        "A scheduling error",
+        "A file system corruption"
+      ],
+      "correct_answer": "Phenomenon where increasing page frames can increase page faults in FIFO",
+      "level": "medium",
+      "explanation": "Belady's anomaly occurs in FIFO page replacement where increasing the number of page frames can paradoxically increase page faults."
+    },
+    {
+      "id": "os-medium-016",
+      "question": "What is the difference between batch and interactive operating systems?",
+      "options": [
+        "No difference",
+        "Batch processes jobs without user interaction, interactive allows real-time user input",
+        "Batch is faster",
+        "Interactive uses more memory"
+      ],
+      "correct_answer": "Batch processes jobs without user interaction, interactive allows real-time user input",
+      "level": "medium",
+      "explanation": "Batch systems process jobs in batches without user interaction, while interactive systems provide immediate response to user commands."
+    },
+    {
+      "id": "os-medium-017",
+      "question": "What is a race condition?",
+      "options": [
+        "A fast process execution",
+        "Situation where outcome depends on timing of events in concurrent processes",
+        "A process competition",
+        "A scheduling algorithm"
+      ],
+      "correct_answer": "Situation where outcome depends on timing of events in concurrent processes",
+      "level": "medium",
+      "explanation": "A race condition occurs when the outcome of concurrent processes depends on the unpredictable timing of events, leading to inconsistent results."
+    },
+    {
+      "id": "os-medium-018",
+      "question": "What is the purpose of system call interface?",
+      "options": [
+        "To compile programs",
+        "Provide standardized way for programs to request OS services",
+        "To manage hardware directly",
+        "To create user interfaces"
+      ],
+      "correct_answer": "Provide standardized way for programs to request OS services",
+      "level": "medium",
+      "explanation": "The system call interface provides a standardized API for user programs to request services from the operating system kernel."
+    },
+    {
+      "id": "os-medium-019",
+      "question": "What is the difference between buffering and caching?",
+      "options": [
+        "No difference",
+        "Buffering is temporary storage for data transfer, caching stores frequently accessed data",
+        "Caching is for temporary storage, buffering is permanent",
+        "Buffering is faster than caching"
+      ],
+      "correct_answer": "Buffering is temporary storage for data transfer, caching stores frequently accessed data",
+      "level": "medium",
+      "explanation": "Buffering provides temporary storage during data transfer between devices with different speeds, while caching stores frequently accessed data for faster retrieval."
+    },
+    {
+      "id": "os-medium-020",
+      "question": "What is virtualization in operating systems?",
+      "options": [
+        "Making systems faster",
+        "Creating virtual instances of computing resources",
+        "Organizing files virtually",
+        "Virtual user interfaces"
+      ],
+      "correct_answer": "Creating virtual instances of computing resources",
+      "level": "medium",
+      "explanation": "Virtualization creates virtual instances of computing resources like virtual machines, allowing multiple OS instances to run on single hardware."
+    },
+    {
+      "id": "os-medium-021",
+      "question": "What is the difference between blocking and non-blocking I/O?",
+      "options": [
+        "No difference",
+        "Blocking waits for I/O completion, non-blocking returns immediately",
+        "Blocking is faster",
+        "Non-blocking uses more memory"
+      ],
+      "correct_answer": "Blocking waits for I/O completion, non-blocking returns immediately",
+      "level": "medium",
+      "explanation": "Blocking I/O waits for the operation to complete before returning, while non-blocking I/O returns immediately even if the operation isn't finished."
+    },
+    {
+      "id": "os-medium-022",
+      "question": "What is memory-mapped I/O?",
+      "options": [
+        "Mapping memory to disk",
+        "Using memory addresses to access I/O devices",
+        "Creating virtual memory maps",
+        "Organizing memory layout"
+      ],
+      "correct_answer": "Using memory addresses to access I/O devices",
+      "level": "medium",
+      "explanation": "Memory-mapped I/O uses the same address space for memory and I/O devices, allowing device registers to be accessed using memory addresses."
+    },
+    {
+      "id": "os-medium-023",
+      "question": "What is the purpose of interrupt vector table?",
+      "options": [
+        "To store interrupt data",
+        "Table containing addresses of interrupt service routines",
+        "To count interrupts",
+        "To disable interrupts"
+      ],
+      "correct_answer": "Table containing addresses of interrupt service routines",
+      "level": "medium",
+      "explanation": "The interrupt vector table contains the addresses of interrupt service routines, allowing the CPU to quickly find the appropriate handler for each interrupt."
+    },
+    {
+      "id": "os-medium-024",
+      "question": "What is spooling?",
+      "options": [
+        "A threading technique",
+        "Simultaneous Peripheral Operations On-Line - managing I/O operations",
+        "A memory management technique",
+        "A file compression method"
+      ],
+      "correct_answer": "Simultaneous Peripheral Operations On-Line - managing I/O operations",
+      "level": "medium",
+      "explanation": "Spooling manages I/O operations by storing data in intermediate storage (like disk) before sending it to slow devices like printers."
+    },
+    {
+      "id": "os-medium-025",
+      "question": "What is the difference between logical and physical file system?",
+      "options": [
+        "No difference",
+        "Logical provides user interface, physical manages actual storage",
+        "Physical is virtual, logical is real",
+        "Logical is faster"
+      ],
+      "correct_answer": "Logical provides user interface, physical manages actual storage",
+      "level": "medium",
+      "explanation": "The logical file system provides the user interface and API, while the physical file system manages the actual storage and retrieval of data on storage devices."
+    },
+    {
+      "id": "os-medium-026",
+      "question": "What is dirty bit in page replacement?",
+      "options": [
+        "A corrupted page",
+        "Bit indicating if page has been modified",
+        "A page with errors",
+        "An unused page marker"
+      ],
+      "correct_answer": "Bit indicating if page has been modified",
+      "level": "medium",
+      "explanation": "The dirty bit indicates whether a page has been modified since it was loaded into memory, determining if it needs to be written back to storage when replaced."
+    },
+    {
+      "id": "os-medium-027",
+      "question": "What is the difference between preemptive and cooperative multitasking?",
+      "options": [
+        "No difference",
+        "Preemptive OS controls task switching, cooperative tasks voluntarily yield control",
+        "Cooperative is faster",
+        "Preemptive uses less memory"
+      ],
+      "correct_answer": "Preemptive OS controls task switching, cooperative tasks voluntarily yield control",
+      "level": "medium",
+      "explanation": "In preemptive multitasking, the OS forcibly switches between tasks, while in cooperative multitasking, tasks must voluntarily yield control."
+    },
+    {
+      "id": "os-medium-028",
+      "question": "What is the purpose of reference bit in page replacement algorithms?",
+      "options": [
+        "To count page references",
+        "To indicate if page has been recently accessed",
+        "To store page addresses",
+        "To mark page errors"
+      ],
+      "correct_answer": "To indicate if page has been recently accessed",
+      "level": "medium",
+      "explanation": "The reference bit indicates whether a page has been recently accessed, helping page replacement algorithms make informed decisions about which pages to replace."
+    },
+    {
+      "id": "os-medium-029",
+      "question": "What is the difference between process and thread creation overhead?",
+      "options": [
+        "Same overhead",
+        "Process creation has higher overhead due to separate address space",
+        "Thread creation has higher overhead",
+        "Both have no overhead"
+      ],
+      "correct_answer": "Process creation has higher overhead due to separate address space",
+      "level": "medium",
+      "explanation": "Process creation has higher overhead because it requires creating a separate address space, while threads share the address space of their parent process."
+    },
+    {
+      "id": "os-medium-030",
+      "question": "What is convoy effect in process scheduling?",
+      "options": [
+        "Processes moving together",
+        "Short processes waiting behind long processes in FCFS scheduling",
+        "Processes following each other",
+        "Group process execution"
+      ],
+      "correct_answer": "Short processes waiting behind long processes in FCFS scheduling",
+      "level": "medium",
+      "explanation": "Convoy effect occurs in FCFS scheduling when short processes get stuck waiting behind a long-running process, reducing system efficiency."
+    },
+    {
+      "id": "os-hard-001",
+      "question": "What is the Linux Completely Fair Scheduler (CFS) and how does it differ from traditional schedulers?",
+      "options": [
+        "It gives equal time to all processes",
+        "It uses red-black trees and virtual runtime to ensure fairness",
+        "It schedules processes randomly",
+        "It only schedules high priority processes"
+      ],
+      "correct_answer": "It uses red-black trees and virtual runtime to ensure fairness",
+      "level": "hard",
+      "explanation": "CFS uses red-black trees to organize processes by virtual runtime, ensuring that processes get proportionally fair CPU time based on their nice values and number of runnable tasks."
+    },
+    {
+      "id": "os-hard-002",
+      "question": "What is the difference between NUMA and UMA memory architectures?",
+      "options": [
+        "No difference",
+        "NUMA has non-uniform memory access times, UMA has uniform access times",
+        "UMA is newer than NUMA",
+        "NUMA is faster in all cases"
+      ],
+      "correct_answer": "NUMA has non-uniform memory access times, UMA has uniform access times",
+      "level": "hard",
+      "explanation": "NUMA (Non-Uniform Memory Access) has varying memory access times depending on memory location relative to processor, while UMA (Uniform Memory Access) has consistent access times."
+    },
+    {
+      "id": "os-hard-003",
+      "question": "What is memory barrier (memory fence) and why is it needed?",
+      "options": [
+        "Physical barrier in memory",
+        "Instruction that prevents CPU reordering of memory operations for consistency",
+        "Memory protection mechanism",
+        "Method to increase memory speed"
+      ],
+      "correct_answer": "Instruction that prevents CPU reordering of memory operations for consistency",
+      "level": "hard",
+      "explanation": "Memory barriers prevent CPU and compiler from reordering memory operations, ensuring memory consistency in multi-threaded and multi-processor systems."
+    },
+    {
+      "id": "os-hard-004",
+      "question": "What is the ABA problem in lock-free programming?",
+      "options": [
+        "A simple counting problem",
+        "When a value changes from A to B and back to A, appearing unchanged",
+        "Algorithm naming convention",
+        "Memory allocation pattern"
+      ],
+      "correct_answer": "When a value changes from A to B and back to A, appearing unchanged",
+      "level": "hard",
+      "explanation": "The ABA problem occurs in concurrent programming when a value appears unchanged (A→B→A) but the underlying data structure may have been modified, causing incorrect behavior."
+    },
+    {
+      "id": "os-hard-005",
+      "question": "What is RCU (Read-Copy-Update) synchronization mechanism?",
+      "options": [
+        "A file copying method",
+        "Lock-free synchronization allowing concurrent reads and deferred updates",
+        "Memory allocation algorithm",
+        "Disk scheduling algorithm"
+      ],
+      "correct_answer": "Lock-free synchronization allowing concurrent reads and deferred updates",
+      "level": "hard",
+      "explanation": "RCU allows multiple readers to access data structures concurrently without locks, while writers create new versions and defer deletion until all readers finish."
+    },
+    {
+      "id": "os-hard-006",
+      "question": "What is the difference between strong and weak memory consistency models?",
+      "options": [
+        "Strong uses more memory",
+        "Strong guarantees sequential consistency, weak allows reordering optimizations",
+        "Weak is always faster",
+        "Strong prevents memory leaks"
+      ],
+      "correct_answer": "Strong guarantees sequential consistency, weak allows reordering optimizations",
+      "level": "hard",
+      "explanation": "Strong memory models guarantee sequential consistency (all operations appear atomic and in program order), while weak models allow reordering for performance optimization."
+    },
+    {
+      "id": "os-hard-007",
+      "question": "What is false sharing in multi-core systems?",
+      "options": [
+        "Sharing files incorrectly",
+        "Different cores accessing different data in same cache line causing cache thrashing",
+        "Sharing memory between wrong processes",
+        "Incorrect file permissions"
+      ],
+      "correct_answer": "Different cores accessing different data in same cache line causing cache thrashing",
+      "level": "hard",
+      "explanation": "False sharing occurs when threads on different cores access different variables that happen to be in the same cache line, causing unnecessary cache coherency traffic."
+    },
+    {
+      "id": "os-hard-008",
+      "question": "What is the difference between soft and hard page faults?",
+      "options": [
+        "Soft faults are easier to handle",
+        "Soft faults find pages in memory, hard faults require disk I/O",
+        "Hard faults happen more frequently",
+        "Soft faults are permanent"
+      ],
+      "correct_answer": "Soft faults find pages in memory, hard faults require disk I/O",
+      "level": "hard",
+      "explanation": "Soft page faults occur when the requested page is in memory but not in the process's page table, while hard page faults require loading the page from secondary storage."
+    },
+    {
+      "id": "os-hard-009",
+      "question": "What is kernel preemption and what are its implications?",
+      "options": [
+        "Preventing kernel execution",
+        "Ability to interrupt kernel execution for higher priority tasks",
+        "Kernel optimization technique",
+        "Security feature in kernel"
+      ],
+      "correct_answer": "Ability to interrupt kernel execution for higher priority tasks",
+      "level": "hard",
+      "explanation": "Kernel preemption allows the kernel to be interrupted by higher priority tasks, improving real-time response but requiring additional synchronization mechanisms."
+    },
+    {
+      "id": "os-hard-010",
+      "question": "What is the thundering herd problem?",
+      "options": [
+        "Too many processes running",
+        "Multiple processes waking up when only one should handle an event",
+        "Network congestion issue",
+        "Memory allocation problem"
+      ],
+      "correct_answer": "Multiple processes waking up when only one should handle an event",
+      "level": "hard",
+      "explanation": "The thundering herd problem occurs when multiple sleeping processes are awakened to handle an event that only one process can actually handle, wasting resources."
+    },
+    {
+      "id": "os-hard-011",
+      "question": "What is copy-on-write fork optimization and how does it work?",
+      "options": [
+        "Copying files during process creation",
+        "Parent and child share memory pages until modification occurs",
+        "Creating multiple process copies",
+        "Optimizing fork system call speed"
+      ],
+      "correct_answer": "Parent and child share memory pages until modification occurs",
+      "level": "hard",
+      "explanation": "COW fork allows parent and child processes to share the same physical memory pages until one of them modifies a page, at which point a copy is made."
+    },
+    {
+      "id": "os-hard-012",
+      "question": "What is the purpose of KASLR (Kernel Address Space Layout Randomization)?",
+      "options": [
+        "To organize kernel memory",
+        "Security feature randomizing kernel memory layout to prevent attacks",
+        "To optimize kernel performance",
+        "To manage kernel modules"
+      ],
+      "correct_answer": "Security feature randomizing kernel memory layout to prevent attacks",
+      "level": "hard",
+      "explanation": "KASLR randomizes the kernel's memory layout at boot time, making it harder for attackers to predict kernel addresses for exploitation."
+    },
+    {
+      "id": "os-hard-013",
+      "question": "What is the difference between SLAB, SLOB, and SLUB allocators?",
+      "options": [
+        "No significant difference",
+        "Different kernel memory allocation strategies with varying performance characteristics",
+        "File system types",
+        "Scheduling algorithms"
+      ],
+      "correct_answer": "Different kernel memory allocation strategies with varying performance characteristics",
+      "level": "hard",
+      "explanation": "SLAB, SLOB, and SLUB are different kernel memory allocators: SLAB is complex but efficient, SLOB is simple for embedded systems, SLUB is the default modern allocator."
+    },
+    {
+      "id": "os-hard-014",
+      "question": "What is speculative execution and how do vulnerabilities like Spectre exploit it?",
+      "options": [
+        "Running programs before they're needed",
+        "CPU technique executing instructions ahead of time, vulnerable to side-channel attacks",
+        "Predicting user behavior",
+        "Optimizing memory access"
+      ],
+      "correct_answer": "CPU technique executing instructions ahead of time, vulnerable to side-channel attacks",
+      "level": "hard",
+      "explanation": "Speculative execution allows CPUs to execute instructions before confirming they're needed. Vulnerabilities like Spectre exploit this by using side-channel attacks to leak information."
+    },
+    {
+      "id": "os-hard-015",
+      "question": "What is the difference between cooperative and preemptive kernel designs?",
+      "options": [
+        "No difference in kernel design",
+        "Cooperative kernel cannot be preempted during system calls, preemptive can be",
+        "Cooperative is always faster",
+        "Preemptive uses more memory"
+      ],
+      "correct_answer": "Cooperative kernel cannot be preempted during system calls, preemptive can be",
+      "level": "hard",
+      "explanation": "In cooperative kernels, kernel code runs to completion without interruption, while preemptive kernels can be interrupted during system calls for better real-time response."
+    },
+    {
+      "id": "os-hard-016",
+      "question": "What is SMEP (Supervisor Mode Execution Prevention) and SMAP?",
+      "options": [
+        "Memory management techniques",
+        "Hardware security features preventing kernel from executing/accessing user pages",
+        "Scheduling algorithms",
+        "File system features"
+      ],
+      "correct_answer": "Hardware security features preventing kernel from executing/accessing user pages",
+      "level": "hard",
+      "explanation": "SMEP prevents kernel from executing user space pages, and SMAP prevents kernel from accessing user space data, both helping prevent privilege escalation attacks."
+    },
+    {
+      "id": "os-hard-017",
+      "question": "What is the purpose of Control Flow Integrity (CFI)?",
+      "options": [
+        "Managing program execution flow",
+        "Security mechanism preventing ROP/JOP attacks by validating indirect calls",
+        "Optimizing branch prediction",
+        "Managing interrupt handling"
+      ],
+      "correct_answer": "Security mechanism preventing ROP/JOP attacks by validating indirect calls",
+      "level": "hard",
+      "explanation": "CFI is a security mechanism that prevents Return-Oriented Programming (ROP) and Jump-Oriented Programming (JOP) attacks by validating the targets of indirect calls."
+    },
+    {
+      "id": "os-hard-018",
+      "question": "What is the difference between user-level and kernel-level threads implementation?",
+      "options": [
+        "No difference",
+        "User-level managed by library, kernel-level managed by OS with different performance trade-offs",
+        "User-level are faster in all cases",
+        "Kernel-level use more memory"
+      ],
+      "correct_answer": "User-level managed by library, kernel-level managed by OS with different performance trade-offs",
+      "level": "hard",
+      "explanation": "User-level threads are managed by user-space libraries with fast context switching but can't utilize multiple CPUs, while kernel-level threads are managed by OS with slower switching but better multiprocessor support."
+    },
+    {
+      "id": "os-hard-019",
+      "question": "What is lazy loading in the context of dynamic linking?",
+      "options": [
+        "Slow library loading",
+        "Loading library functions only when first called to reduce startup time",
+        "Loading libraries in background",
+        "Caching library functions"
+      ],
+      "correct_answer": "Loading library functions only when first called to reduce startup time",
+      "level": "hard",
+      "explanation": "Lazy loading in dynamic linking defers resolving library function addresses until they're actually called, reducing application startup time."
+    },
+    {
+      "id": "os-hard-020",
+      "question": "What is the purpose of Intel CET (Control-flow Enforcement Technology)?",
+      "options": [
+        "Improving CPU performance",
+        "Hardware feature using shadow stacks and indirect branch tracking for security",
+        "Managing cache efficiency",
+        "Optimizing memory access"
+      ],
+      "correct_answer": "Hardware feature using shadow stacks and indirect branch tracking for security",
+      "level": "hard",
+      "explanation": "Intel CET uses shadow stacks to track return addresses and indirect branch tracking to validate jump targets, preventing ROP/JOP attacks at the hardware level."
+    },
+    {
+      "id": "os-hard-021",
+      "question": "What is the difference between hard and soft real-time scheduling algorithms?",
+      "options": [
+        "Hard algorithms are more complex",
+        "Hard RT guarantees deadlines with formal verification, soft RT provides statistical guarantees",
+        "Soft RT is faster",
+        "Hard RT uses more memory"
+      ],
+      "correct_answer": "Hard RT guarantees deadlines with formal verification, soft RT provides statistical guarantees",
+      "level": "hard",
+      "explanation": "Hard real-time scheduling provides formal guarantees that deadlines will be met, often with schedulability analysis, while soft real-time provides statistical or best-effort guarantees."
+    },
+    {
+      "id": "os-hard-022",
+      "question": "What is the problem with priority inheritance and how is priority ceiling protocol different?",
+      "options": [
+        "No problems with priority inheritance",
+        "Priority inheritance can cause deadlocks and unbounded blocking, ceiling protocol prevents this",
+        "Priority ceiling is always slower",
+        "Priority inheritance uses more memory"
+      ],
+      "correct_answer": "Priority inheritance can cause deadlocks and unbounded blocking, ceiling protocol prevents this",
+      "level": "hard",
+      "explanation": "Priority inheritance can lead to deadlocks and unbounded priority inversion. Priority ceiling protocol assigns each resource a ceiling priority, preventing these issues."
+    },
+    {
+      "id": "os-hard-023",
+      "question": "What is write amplification in SSDs and how do operating systems address it?",
+      "options": [
+        "Writing data multiple times",
+        "Phenomenon where more data is written to flash than requested due to erase block size",
+        "Amplifying write signals",
+        "Increasing write speed"
+      ],
+      "correct_answer": "Phenomenon where more data is written to flash than requested due to erase block size",
+      "level": "hard",
+      "explanation": "Write amplification occurs because SSDs must erase entire blocks when modifying data. OSes use techniques like TRIM commands and write coalescing to minimize this effect."
+    },
+    {
+      "id": "os-hard-024",
+      "question": "What is the purpose of Intel MPX (Memory Protection Extensions)?",
+      "options": [
+        "Extending available memory",
+        "Hardware bounds checking for pointers to prevent buffer overflows",
+        "Improving memory speed",
+        "Managing memory allocation"
+      ],
+      "correct_answer": "Hardware bounds checking for pointers to prevent buffer overflows",
+      "level": "hard",
+      "explanation": "Intel MPX provides hardware-assisted bounds checking for pointers, helping prevent buffer overflow attacks by automatically checking pointer accesses against their bounds."
+    },
+    {
+      "id": "os-hard-025",
+      "question": "What is the difference between tagged and untagged TLB architectures?",
+      "options": [
+        "Tagged TLBs have labels",
+        "Tagged TLBs include process ID to avoid flushing on context switch",
+        "Untagged TLBs are faster",
+        "Tagged TLBs use more power"
+      ],
+      "correct_answer": "Tagged TLBs include process ID to avoid flushing on context switch",
+      "level": "hard",
+      "explanation": "Tagged TLBs include process or address space identifiers with each entry, allowing multiple processes' translations to coexist without flushing the TLB on context switches."
+    },
+    {
+      "id": "os-hard-026",
+      "question": "What is lock-free programming and what are its challenges?",
+      "options": [
+        "Programming without any locks",
+        "Using atomic operations and memory barriers instead of locks, challenging due to ABA problem and memory ordering",
+        "Faster than lock-based programming always",
+        "Simpler than using locks"
+      ],
+      "correct_answer": "Using atomic operations and memory barriers instead of locks, challenging due to ABA problem and memory ordering",
+      "level": "hard",
+      "explanation": "Lock-free programming uses atomic operations and memory barriers instead of locks for synchronization, but faces challenges like ABA problem, memory ordering, and complex debugging."
+    },
+    {
+      "id": "os-hard-027",
+      "question": "What is the purpose of Intel TSX (Transactional Synchronization Extensions)?",
+      "options": [
+        "Extending transaction processing",
+        "Hardware transactional memory allowing atomic execution of code regions",
+        "Improving synchronization speed",
+        "Managing database transactions"
+      ],
+      "correct_answer": "Hardware transactional memory allowing atomic execution of code regions",
+      "level": "hard",
+      "explanation": "Intel TSX provides hardware transactional memory, allowing regions of code to execute atomically. If conflicts are detected, the transaction aborts and can retry or use fallback code."
+    },
+    {
+      "id": "os-hard-028",
+      "question": "What is KPTI (Kernel Page Table Isolation) and why was it introduced?",
+      "options": [
+        "Optimizing kernel performance",
+        "Mitigation for Meltdown vulnerability separating user and kernel page tables",
+        "Improving memory management",
+        "Reducing kernel memory usage"
+      ],
+      "correct_answer": "Mitigation for Meltdown vulnerability separating user and kernel page tables",
+      "level": "hard",
+      "explanation": "KPTI separates user and kernel page tables to mitigate the Meltdown vulnerability, preventing user processes from accessing kernel memory through speculative execution."
+    },
+    {
+      "id": "os-hard-029",
+      "question": "What is the difference between FIFO, LRU, and LFU page replacement algorithms in terms of implementation complexity and performance?",
+      "options": [
+        "All have same complexity and performance",
+        "FIFO is simplest but suffers from Belady's anomaly, LRU has good performance but complex implementation, LFU is complex and may not adapt to changing patterns",
+        "LFU is always the best",
+        "FIFO is always optimal"
+      ],
+      "correct_answer": "FIFO is simplest but suffers from Belady's anomaly, LRU has good performance but complex implementation, LFU is complex and may not adapt to changing patterns",
+      "level": "hard",
+      "explanation": "FIFO is simple but can suffer from Belady's anomaly. LRU generally performs well but requires complex data structures. LFU tracks frequency but may not adapt quickly to changing access patterns."
+    },
+    {
+      "id": "os-hard-030",
+      "question": "What is the working set clock algorithm and how does it improve upon basic clock algorithm?",
+      "options": [
+        "Just a timing mechanism",
+        "Combines working set model with clock algorithm to prevent thrashing by estimating working set size",
+        "Faster version of clock algorithm",
+        "Algorithm for scheduling processes"
+      ],
+      "correct_answer": "Combines working set model with clock algorithm to prevent thrashing by estimating working set size",
+      "level": "hard",
+      "explanation": "The working set clock algorithm combines the working set model with the clock page replacement algorithm, attempting to keep each process's working set in memory to prevent thrashing while maintaining efficiency."
+    }
+  ]
+}

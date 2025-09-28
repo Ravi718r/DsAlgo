@@ -1,0 +1,1181 @@
+{
+  "subject": "Computer Networks (CN)",
+  "total_questions": 90,
+  "difficulty_distribution": {
+    "easy": 30,
+    "medium": 30,
+    "hard": 30
+  },
+  "questions": [
+    {
+      "id": "cn-easy-001",
+      "question": "What is a computer network?",
+      "options": [
+        "A single computer system",
+        "Collection of interconnected computers that can communicate and share resources",
+        "Software installed on a computer",
+        "A type of operating system"
+      ],
+      "correct_answer": "Collection of interconnected computers that can communicate and share resources",
+      "level": "easy",
+      "explanation": "A computer network is a collection of interconnected computing devices that can communicate with each other and share resources like files, printers, and internet connections."
+    },
+    {
+      "id": "cn-easy-002",
+      "question": "Which of the following is NOT a network topology?",
+      "options": [
+        "Star",
+        "Ring",
+        "Mesh",
+        "Linear"
+      ],
+      "correct_answer": "Linear",
+      "level": "easy",
+      "explanation": "Linear is not a standard network topology. The main topologies are Star, Ring, Mesh, Bus, Tree, and Hybrid."
+    },
+    {
+      "id": "cn-easy-003",
+      "question": "What does OSI stand for in networking?",
+      "options": [
+        "Open System Interconnection",
+        "Operating System Interface",
+        "Online System Integration",
+        "Optimal System Implementation"
+      ],
+      "correct_answer": "Open System Interconnection",
+      "level": "easy",
+      "explanation": "OSI stands for Open System Interconnection, which is a conceptual model that describes how network protocols should interact."
+    },
+    {
+      "id": "cn-easy-004",
+      "question": "How many layers are there in the OSI model?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct_answer": "7",
+      "level": "easy",
+      "explanation": "The OSI model has 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application."
+    },
+    {
+      "id": "cn-easy-005",
+      "question": "Which layer of the OSI model is responsible for routing?",
+      "options": [
+        "Data Link Layer",
+        "Network Layer",
+        "Transport Layer",
+        "Session Layer"
+      ],
+      "correct_answer": "Network Layer",
+      "level": "easy",
+      "explanation": "The Network Layer (Layer 3) is responsible for routing packets between different networks using logical addressing (IP addresses)."
+    },
+    {
+      "id": "cn-easy-006",
+      "question": "What is the full form of TCP?",
+      "options": [
+        "Transfer Control Protocol",
+        "Transmission Control Protocol",
+        "Transport Control Protocol",
+        "Terminal Control Protocol"
+      ],
+      "correct_answer": "Transmission Control Protocol",
+      "level": "easy",
+      "explanation": "TCP stands for Transmission Control Protocol, which is a reliable, connection-oriented protocol used for data transmission."
+    },
+    {
+      "id": "cn-easy-007",
+      "question": "What is the full form of IP in networking?",
+      "options": [
+        "Internet Protocol",
+        "Internal Protocol",
+        "Information Protocol",
+        "Interactive Protocol"
+      ],
+      "correct_answer": "Internet Protocol",
+      "level": "easy",
+      "explanation": "IP stands for Internet Protocol, which is responsible for addressing and routing packets across networks."
+    },
+    {
+      "id": "cn-easy-008",
+      "question": "Which of the following is a connection-oriented protocol?",
+      "options": [
+        "UDP",
+        "TCP",
+        "ICMP",
+        "DHCP"
+      ],
+      "correct_answer": "TCP",
+      "level": "easy",
+      "explanation": "TCP (Transmission Control Protocol) is connection-oriented, meaning it establishes a connection before data transfer and ensures reliable delivery."
+    },
+    {
+      "id": "cn-easy-009",
+      "question": "What does UDP stand for?",
+      "options": [
+        "User Datagram Protocol",
+        "Universal Data Protocol",
+        "Uniform Delivery Protocol",
+        "United Datagram Protocol"
+      ],
+      "correct_answer": "User Datagram Protocol",
+      "level": "easy",
+      "explanation": "UDP stands for User Datagram Protocol, which is a connectionless, unreliable but fast protocol used for applications that don't require guaranteed delivery."
+    },
+    {
+      "id": "cn-easy-010",
+      "question": "Which device operates at the Physical layer of the OSI model?",
+      "options": [
+        "Switch",
+        "Router",
+        "Hub",
+        "Gateway"
+      ],
+      "correct_answer": "Hub",
+      "level": "easy",
+      "explanation": "A hub operates at the Physical layer (Layer 1) and simply repeats incoming signals to all connected devices without any intelligence."
+    },
+    {
+      "id": "cn-easy-011",
+      "question": "What is the default port number for HTTP?",
+      "options": [
+        "21",
+        "23",
+        "80",
+        "443"
+      ],
+      "correct_answer": "80",
+      "level": "easy",
+      "explanation": "HTTP (HyperText Transfer Protocol) uses port 80 by default for web communication."
+    },
+    {
+      "id": "cn-easy-012",
+      "question": "What is the default port number for HTTPS?",
+      "options": [
+        "80",
+        "443",
+        "8080",
+        "8443"
+      ],
+      "correct_answer": "443",
+      "level": "easy",
+      "explanation": "HTTPS (HTTP Secure) uses port 443 by default for secure web communication using SSL/TLS encryption."
+    },
+    {
+      "id": "cn-easy-013",
+      "question": "Which protocol is used for sending emails?",
+      "options": [
+        "POP3",
+        "IMAP",
+        "SMTP",
+        "HTTP"
+      ],
+      "correct_answer": "SMTP",
+      "level": "easy",
+      "explanation": "SMTP (Simple Mail Transfer Protocol) is used for sending emails from clients to servers and between servers."
+    },
+    {
+      "id": "cn-easy-014",
+      "question": "What does DNS stand for?",
+      "options": [
+        "Domain Name System",
+        "Data Network Service",
+        "Dynamic Network System",
+        "Distributed Name Service"
+      ],
+      "correct_answer": "Domain Name System",
+      "level": "easy",
+      "explanation": "DNS stands for Domain Name System, which translates human-readable domain names into IP addresses."
+    },
+    {
+      "id": "cn-easy-015",
+      "question": "Which layer of OSI model handles error detection and correction?",
+      "options": [
+        "Physical Layer",
+        "Data Link Layer",
+        "Network Layer",
+        "Transport Layer"
+      ],
+      "correct_answer": "Data Link Layer",
+      "level": "easy",
+      "explanation": "The Data Link Layer (Layer 2) is responsible for error detection and correction within a single network segment."
+    },
+    {
+      "id": "cn-easy-016",
+      "question": "What is a MAC address?",
+      "options": [
+        "A logical address",
+        "A physical address burned into network interface cards",
+        "A temporary address",
+        "An application layer address"
+      ],
+      "correct_answer": "A physical address burned into network interface cards",
+      "level": "easy",
+      "explanation": "MAC (Media Access Control) address is a unique physical address assigned to network interface cards by manufacturers."
+    },
+    {
+      "id": "cn-easy-017",
+      "question": "Which of the following is a private IP address range?",
+      "options": [
+        "192.168.1.1",
+        "8.8.8.8",
+        "173.194.72.139",
+        "74.125.224.72"
+      ],
+      "correct_answer": "192.168.1.1",
+      "level": "easy",
+      "explanation": "192.168.x.x is a private IP address range used for local networks. The others are public IP addresses."
+    },
+    {
+      "id": "cn-easy-018",
+      "question": "What is the purpose of a subnet mask?",
+      "options": [
+        "To hide network traffic",
+        "To determine network and host portions of an IP address",
+        "To encrypt data",
+        "To compress data"
+      ],
+      "correct_answer": "To determine network and host portions of an IP address",
+      "level": "easy",
+      "explanation": "A subnet mask helps identify which part of an IP address represents the network and which part represents the host."
+    },
+    {
+      "id": "cn-easy-019",
+      "question": "Which device operates at the Network layer?",
+      "options": [
+        "Hub",
+        "Switch",
+        "Router",
+        "Repeater"
+      ],
+      "correct_answer": "Router",
+      "level": "easy",
+      "explanation": "Routers operate at the Network layer (Layer 3) and make routing decisions based on IP addresses."
+    },
+    {
+      "id": "cn-easy-020",
+      "question": "What is bandwidth in networking?",
+      "options": [
+        "The physical width of cables",
+        "The maximum data transfer rate of a network connection",
+        "The number of users on a network",
+        "The distance data can travel"
+      ],
+      "correct_answer": "The maximum data transfer rate of a network connection",
+      "level": "easy",
+      "explanation": "Bandwidth refers to the maximum amount of data that can be transmitted over a network connection in a given time period."
+    },
+    {
+      "id": "cn-easy-021",
+      "question": "What does FTP stand for?",
+      "options": [
+        "File Transfer Protocol",
+        "Fast Transfer Protocol",
+        "Frequent Transfer Protocol",
+        "Final Transfer Protocol"
+      ],
+      "correct_answer": "File Transfer Protocol",
+      "level": "easy",
+      "explanation": "FTP stands for File Transfer Protocol, which is used for transferring files between computers over a network."
+    },
+    {
+      "id": "cn-easy-022",
+      "question": "Which protocol is connectionless?",
+      "options": [
+        "TCP",
+        "UDP",
+        "FTP",
+        "HTTP"
+      ],
+      "correct_answer": "UDP",
+      "level": "easy",
+      "explanation": "UDP (User Datagram Protocol) is connectionless, meaning it doesn't establish a connection before sending data."
+    },
+    {
+      "id": "cn-easy-023",
+      "question": "What is a switch in networking?",
+      "options": [
+        "A device that connects networks",
+        "A device that connects devices within a network using MAC addresses",
+        "A device that amplifies signals",
+        "A device that converts protocols"
+      ],
+      "correct_answer": "A device that connects devices within a network using MAC addresses",
+      "level": "easy",
+      "explanation": "A switch is a Data Link layer device that connects devices within a network and forwards frames based on MAC addresses."
+    },
+    {
+      "id": "cn-easy-024",
+      "question": "What is the maximum length of an Ethernet cable (Cat 5e)?",
+      "options": [
+        "50 meters",
+        "100 meters",
+        "150 meters",
+        "200 meters"
+      ],
+      "correct_answer": "100 meters",
+      "level": "easy",
+      "explanation": "The maximum recommended length for Ethernet cables (Cat 5e and above) is 100 meters for optimal signal quality."
+    },
+    {
+      "id": "cn-easy-025",
+      "question": "Which layer of the OSI model does HTTP operate at?",
+      "options": [
+        "Transport Layer",
+        "Session Layer",
+        "Presentation Layer",
+        "Application Layer"
+      ],
+      "correct_answer": "Application Layer",
+      "level": "easy",
+      "explanation": "HTTP operates at the Application Layer (Layer 7) of the OSI model, providing web services to applications."
+    },
+    {
+      "id": "cn-easy-026",
+      "question": "What is a gateway in networking?",
+      "options": [
+        "A security device",
+        "A device that connects networks with different protocols",
+        "A type of cable",
+        "A network monitoring tool"
+      ],
+      "correct_answer": "A device that connects networks with different protocols",
+      "level": "easy",
+      "explanation": "A gateway is a device that connects networks using different protocols and can translate between them."
+    },
+    {
+      "id": "cn-easy-027",
+      "question": "What does DHCP stand for?",
+      "options": [
+        "Dynamic Host Configuration Protocol",
+        "Direct Host Control Protocol",
+        "Distributed Host Communication Protocol",
+        "Digital Host Connection Protocol"
+      ],
+      "correct_answer": "Dynamic Host Configuration Protocol",
+      "level": "easy",
+      "explanation": "DHCP stands for Dynamic Host Configuration Protocol, which automatically assigns IP addresses and network configuration to devices."
+    },
+    {
+      "id": "cn-easy-028",
+      "question": "Which of the following is a network security device?",
+      "options": [
+        "Hub",
+        "Switch",
+        "Firewall",
+        "Repeater"
+      ],
+      "correct_answer": "Firewall",
+      "level": "easy",
+      "explanation": "A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on security rules."
+    },
+    {
+      "id": "cn-easy-029",
+      "question": "What is the purpose of ARP?",
+      "options": [
+        "To translate domain names to IP addresses",
+        "To translate IP addresses to MAC addresses",
+        "To encrypt data",
+        "To compress data"
+      ],
+      "correct_answer": "To translate IP addresses to MAC addresses",
+      "level": "easy",
+      "explanation": "ARP (Address Resolution Protocol) translates IP addresses to MAC addresses for local network communication."
+    },
+    {
+      "id": "cn-easy-030",
+      "question": "What is latency in networking?",
+      "options": [
+        "The amount of data transmitted",
+        "The time delay in data transmission",
+        "The number of errors in transmission",
+        "The cost of data transmission"
+      ],
+      "correct_answer": "The time delay in data transmission",
+      "level": "easy",
+      "explanation": "Latency is the time delay between sending and receiving data over a network, often measured in milliseconds."
+    },
+    {
+      "id": "cn-medium-001",
+      "question": "What is the difference between collision domain and broadcast domain?",
+      "options": [
+        "No difference",
+        "Collision domain is for physical collisions, broadcast domain is for broadcast traffic",
+        "Collision domain is larger than broadcast domain",
+        "Broadcast domain is always smaller"
+      ],
+      "correct_answer": "Collision domain is for physical collisions, broadcast domain is for broadcast traffic",
+      "level": "medium",
+      "explanation": "A collision domain is where frame collisions can occur (separated by switches), while a broadcast domain is where broadcast traffic is contained (separated by routers)."
+    },
+    {
+      "id": "cn-medium-002",
+      "question": "What is VLAN and what are its benefits?",
+      "options": [
+        "Virtual LAN that logically separates network traffic for better security and management",
+        "A type of cable",
+        "A routing protocol",
+        "A network topology"
+      ],
+      "correct_answer": "Virtual LAN that logically separates network traffic for better security and management",
+      "level": "medium",
+      "explanation": "VLAN (Virtual LAN) logically separates network traffic on the same physical infrastructure, providing better security, performance, and network management."
+    },
+    {
+      "id": "cn-medium-003",
+      "question": "What is the difference between half-duplex and full-duplex communication?",
+      "options": [
+        "No difference",
+        "Half-duplex allows communication in one direction at a time, full-duplex allows simultaneous bidirectional communication",
+        "Half-duplex is faster",
+        "Full-duplex uses more bandwidth"
+      ],
+      "correct_answer": "Half-duplex allows communication in one direction at a time, full-duplex allows simultaneous bidirectional communication",
+      "level": "medium",
+      "explanation": "Half-duplex allows communication in only one direction at a time, while full-duplex allows simultaneous communication in both directions."
+    },
+    {
+      "id": "cn-medium-004",
+      "question": "What is the purpose of sliding window protocol in TCP?",
+      "options": [
+        "To encrypt data",
+        "Flow control and efficient data transmission by allowing multiple unacknowledged segments",
+        "To compress data",
+        "To route packets"
+      ],
+      "correct_answer": "Flow control and efficient data transmission by allowing multiple unacknowledged segments",
+      "level": "medium",
+      "explanation": "Sliding window protocol provides flow control and increases efficiency by allowing the sender to transmit multiple segments before waiting for acknowledgments."
+    },
+    {
+      "id": "cn-medium-005",
+      "question": "What is the difference between stop-and-wait and go-back-N ARQ?",
+      "options": [
+        "No difference",
+        "Stop-and-wait sends one frame at a time, go-back-N can send multiple frames and retransmits from error point",
+        "Go-back-N is always slower",
+        "Stop-and-wait uses more bandwidth"
+      ],
+      "correct_answer": "Stop-and-wait sends one frame at a time, go-back-N can send multiple frames and retransmits from error point",
+      "level": "medium",
+      "explanation": "Stop-and-wait ARQ sends one frame and waits for acknowledgment, while go-back-N ARQ can send multiple frames and retransmits all frames starting from the error point."
+    },
+    {
+      "id": "cn-medium-006",
+      "question": "What is the purpose of checksum in networking?",
+      "options": [
+        "To encrypt data",
+        "Error detection by calculating a value based on data content",
+        "To compress data",
+        "To route packets"
+      ],
+      "correct_answer": "Error detection by calculating a value based on data content",
+      "level": "medium",
+      "explanation": "Checksum is used for error detection by calculating a value based on the data content. If the received checksum doesn't match, an error is detected."
+    },
+    {
+      "id": "cn-medium-007",
+      "question": "What is NAT and why is it used?",
+      "options": [
+        "Network Address Translation used to map private IP addresses to public IP addresses",
+        "A routing protocol",
+        "A type of cable",
+        "A security protocol"
+      ],
+      "correct_answer": "Network Address Translation used to map private IP addresses to public IP addresses",
+      "level": "medium",
+      "explanation": "NAT (Network Address Translation) maps private IP addresses to public IP addresses, allowing multiple devices to share a single public IP address and providing security."
+    },
+    {
+      "id": "cn-medium-008",
+      "question": "What is the difference between distance vector and link state routing protocols?",
+      "options": [
+        "No difference",
+        "Distance vector shares routing table with neighbors, link state shares topology information with all routers",
+        "Link state is always faster",
+        "Distance vector uses more memory"
+      ],
+      "correct_answer": "Distance vector shares routing table with neighbors, link state shares topology information with all routers",
+      "level": "medium",
+      "explanation": "Distance vector protocols (like RIP) share routing tables with neighbors, while link state protocols (like OSPF) share topology information with all routers to build a complete network map."
+    },
+    {
+      "id": "cn-medium-009",
+      "question": "What is the purpose of spanning tree protocol (STP)?",
+      "options": [
+        "To create network loops",
+        "To prevent loops in switched networks by blocking redundant paths",
+        "To encrypt data",
+        "To compress data"
+      ],
+      "correct_answer": "To prevent loops in switched networks by blocking redundant paths",
+      "level": "medium",
+      "explanation": "STP prevents loops in switched networks by identifying and blocking redundant paths while maintaining network connectivity."
+    },
+    {
+      "id": "cn-medium-010",
+      "question": "What is CSMA/CD and where is it used?",
+      "options": [
+        "Collision detection mechanism used in traditional Ethernet",
+        "A routing protocol",
+        "An encryption method",
+        "A compression technique"
+      ],
+      "correct_answer": "Collision detection mechanism used in traditional Ethernet",
+      "level": "medium",
+      "explanation": "CSMA/CD (Carrier Sense Multiple Access with Collision Detection) is used in traditional Ethernet to detect and handle collisions in shared media."
+    },
+    {
+      "id": "cn-medium-011",
+      "question": "What is the difference between circuit switching and packet switching?",
+      "options": [
+        "No difference",
+        "Circuit switching establishes dedicated path, packet switching sends data in packets over shared paths",
+        "Packet switching is always faster",
+        "Circuit switching uses less bandwidth"
+      ],
+      "correct_answer": "Circuit switching establishes dedicated path, packet switching sends data in packets over shared paths",
+      "level": "medium",
+      "explanation": "Circuit switching establishes a dedicated communication path for the entire session, while packet switching breaks data into packets that travel independently over shared paths."
+    },
+    {
+      "id": "cn-medium-012",
+      "question": "What is Quality of Service (QoS) and why is it important?",
+      "options": [
+        "Network management technique to prioritize traffic and ensure performance levels",
+        "A type of cable",
+        "A routing protocol",
+        "A security measure"
+      ],
+      "correct_answer": "Network management technique to prioritize traffic and ensure performance levels",
+      "level": "medium",
+      "explanation": "QoS manages network resources to provide different priority levels for different types of traffic, ensuring critical applications get required bandwidth and low latency."
+    },
+    {
+      "id": "cn-medium-013",
+      "question": "What is the difference between IPv4 and IPv6?",
+      "options": [
+        "No significant difference",
+        "IPv4 uses 32-bit addresses, IPv6 uses 128-bit addresses and provides more features",
+        "IPv6 is slower than IPv4",
+        "IPv4 is more secure"
+      ],
+      "correct_answer": "IPv4 uses 32-bit addresses, IPv6 uses 128-bit addresses and provides more features",
+      "level": "medium",
+      "explanation": "IPv4 uses 32-bit addresses (4 billion addresses), while IPv6 uses 128-bit addresses (virtually unlimited) and includes features like built-in security and simplified header format."
+    },
+    {
+      "id": "cn-medium-014",
+      "question": "What is tunneling in networking?",
+      "options": [
+        "Physical underground cables",
+        "Encapsulating one protocol inside another for transport across incompatible networks",
+        "Creating network loops",
+        "Encrypting all network traffic"
+      ],
+      "correct_answer": "Encapsulating one protocol inside another for transport across incompatible networks",
+      "level": "medium",
+      "explanation": "Tunneling encapsulates packets of one protocol inside packets of another protocol, allowing transport across networks that don't natively support the original protocol."
+    },
+    {
+      "id": "cn-medium-015",
+      "question": "What is the purpose of ICMP?",
+      "options": [
+        "File transfer",
+        "Error reporting and diagnostic functions for IP",
+        "Email transmission",
+        "Web browsing"
+      ],
+      "correct_answer": "Error reporting and diagnostic functions for IP",
+      "level": "medium",
+      "explanation": "ICMP (Internet Control Message Protocol) provides error reporting and diagnostic functions for IP, used by tools like ping and traceroute."
+    },
+    {
+      "id": "cn-medium-016",
+      "question": "What is load balancing and why is it used?",
+      "options": [
+        "Distributing network traffic across multiple servers to improve performance and reliability",
+        "Encrypting network traffic",
+        "Compressing data",
+        "Routing packets"
+      ],
+      "correct_answer": "Distributing network traffic across multiple servers to improve performance and reliability",
+      "level": "medium",
+      "explanation": "Load balancing distributes incoming network traffic across multiple servers to prevent overload, improve response times, and provide redundancy."
+    },
+    {
+      "id": "cn-medium-017",
+      "question": "What is the difference between stateful and stateless protocols?",
+      "options": [
+        "No difference",
+        "Stateful protocols maintain connection state, stateless protocols treat each request independently",
+        "Stateless protocols are always faster",
+        "Stateful protocols use less memory"
+      ],
+      "correct_answer": "Stateful protocols maintain connection state, stateless protocols treat each request independently",
+      "level": "medium",
+      "explanation": "Stateful protocols (like TCP) maintain information about the connection state, while stateless protocols (like HTTP) treat each request independently."
+    },
+    {
+      "id": "cn-medium-018",
+      "question": "What is the purpose of port numbers in TCP/UDP?",
+      "options": [
+        "To identify physical ports on devices",
+        "To identify specific applications or services on a device",
+        "To encrypt data",
+        "To compress data"
+      ],
+      "correct_answer": "To identify specific applications or services on a device",
+      "level": "medium",
+      "explanation": "Port numbers identify specific applications or services running on a device, allowing the transport layer to deliver data to the correct application."
+    },
+    {
+      "id": "cn-medium-019",
+      "question": "What is the difference between unicast, multicast, and broadcast?",
+      "options": [
+        "No difference",
+        "Unicast is one-to-one, multicast is one-to-many specific, broadcast is one-to-all",
+        "Multicast is always fastest",
+        "Broadcast uses less bandwidth"
+      ],
+      "correct_answer": "Unicast is one-to-one, multicast is one-to-many specific, broadcast is one-to-all",
+      "level": "medium",
+      "explanation": "Unicast sends data to one specific recipient, multicast sends to a specific group, and broadcast sends to all devices in the network segment."
+    },
+    {
+      "id": "cn-medium-020",
+      "question": "What is the purpose of routing tables?",
+      "options": [
+        "To store user data",
+        "To store information about network paths and next hop for packet forwarding",
+        "To encrypt data",
+        "To compress data"
+      ],
+      "correct_answer": "To store information about network paths and next hop for packet forwarding",
+      "level": "medium",
+      "explanation": "Routing tables store information about network destinations and the next hop (next router) to reach those destinations, enabling packet forwarding decisions."
+    },
+    {
+      "id": "cn-medium-021",
+      "question": "What is the difference between hub and switch?",
+      "options": [
+        "No difference",
+        "Hub operates at physical layer and creates single collision domain, switch operates at data link layer with separate collision domains per port",
+        "Switch is always slower",
+        "Hub is more secure"
+      ],
+      "correct_answer": "Hub operates at physical layer and creates single collision domain, switch operates at data link layer with separate collision domains per port",
+      "level": "medium",
+      "explanation": "Hubs operate at Layer 1 and create one large collision domain, while switches operate at Layer 2, creating separate collision domains for each port and learning MAC addresses."
+    },
+    {
+      "id": "cn-medium-022",
+      "question": "What is congestion control in TCP?",
+      "options": [
+        "Preventing network traffic",
+        "Mechanism to adjust sending rate based on network congestion to prevent packet loss",
+        "Encrypting data",
+        "Compressing data"
+      ],
+      "correct_answer": "Mechanism to adjust sending rate based on network congestion to prevent packet loss",
+      "level": "medium",
+      "explanation": "TCP congestion control adjusts the sending rate based on network conditions to prevent congestion and packet loss, using algorithms like slow start and congestion avoidance."
+    },
+    {
+      "id": "cn-medium-023",
+      "question": "What is the purpose of subnetting?",
+      "options": [
+        "To increase network security only",
+        "To divide a large network into smaller subnetworks for better management and security",
+        "To increase bandwidth",
+        "To encrypt data"
+      ],
+      "correct_answer": "To divide a large network into smaller subnetworks for better management and security",
+      "level": "medium",
+      "explanation": "Subnetting divides a large network into smaller subnetworks, improving network performance, security, and management by reducing broadcast domains."
+    },
+    {
+      "id": "cn-medium-024",
+      "question": "What is the difference between TCP and UDP headers?",
+      "options": [
+        "No difference",
+        "TCP header is larger with more fields for reliability, UDP header is smaller and simpler",
+        "UDP header is always larger",
+        "Both headers are identical"
+      ],
+      "correct_answer": "TCP header is larger with more fields for reliability, UDP header is smaller and simpler",
+      "level": "medium",
+      "explanation": "TCP header (20+ bytes) includes fields for sequence numbers, acknowledgments, and flow control, while UDP header (8 bytes) is simpler with just source/destination ports and length/checksum."
+    },
+    {
+      "id": "cn-medium-025",
+      "question": "What is the purpose of DNS caching?",
+      "options": [
+        "To store web pages",
+        "To store DNS query results temporarily to reduce lookup time and network traffic",
+        "To encrypt DNS queries",
+        "To compress DNS data"
+      ],
+      "correct_answer": "To store DNS query results temporarily to reduce lookup time and network traffic",
+      "level": "medium",
+      "explanation": "DNS caching stores previously resolved domain name to IP address mappings temporarily, reducing lookup time and network traffic for subsequent requests."
+    },
+    {
+      "id": "cn-medium-026",
+      "question": "What is the difference between connection-oriented and connectionless services?",
+      "options": [
+        "No difference",
+        "Connection-oriented establishes connection before data transfer, connectionless sends data without prior connection",
+        "Connectionless is always more reliable",
+        "Connection-oriented uses less bandwidth"
+      ],
+      "correct_answer": "Connection-oriented establishes connection before data transfer, connectionless sends data without prior connection",
+      "level": "medium",
+      "explanation": "Connection-oriented services (like TCP) establish a connection before transferring data and provide reliability, while connectionless services (like UDP) send data immediately without establishing a connection."
+    },
+    {
+      "id": "cn-medium-027",
+      "question": "What is the purpose of flow control?",
+      "options": [
+        "To encrypt data",
+        "To prevent sender from overwhelming receiver by controlling data transmission rate",
+        "To route packets",
+        "To compress data"
+      ],
+      "correct_answer": "To prevent sender from overwhelming receiver by controlling data transmission rate",
+      "level": "medium",
+      "explanation": "Flow control prevents the sender from transmitting data faster than the receiver can process it, preventing buffer overflow and data loss."
+    },
+    {
+      "id": "cn-medium-028",
+      "question": "What is the difference between routed and routing protocols?",
+      "options": [
+        "No difference",
+        "Routed protocols carry user data (like IP), routing protocols exchange routing information (like OSPF, RIP)",
+        "Routing protocols are always faster",
+        "Routed protocols are more secure"
+      ],
+      "correct_answer": "Routed protocols carry user data (like IP), routing protocols exchange routing information (like OSPF, RIP)",
+      "level": "medium",
+      "explanation": "Routed protocols (like IP, IPX) carry user data across networks, while routing protocols (like OSPF, RIP, BGP) exchange routing information between routers."
+    },
+    {
+      "id": "cn-medium-029",
+      "question": "What is the purpose of fragmentation in IP?",
+      "options": [
+        "To encrypt packets",
+        "To break large packets into smaller fragments when they exceed MTU size",
+        "To compress packets",
+        "To route packets"
+      ],
+      "correct_answer": "To break large packets into smaller fragments when they exceed MTU size",
+      "level": "medium",
+      "explanation": "IP fragmentation breaks large packets into smaller fragments when they exceed the Maximum Transmission Unit (MTU) of a network link, allowing them to traverse networks with smaller MTU sizes."
+    },
+    {
+      "id": "cn-medium-030",
+      "question": "What is the difference between persistent and non-persistent HTTP connections?",
+      "options": [
+        "No difference",
+        "Persistent connections reuse TCP connection for multiple requests, non-persistent create new connection for each request",
+        "Non-persistent connections are always faster",
+        "Persistent connections use more memory"
+      ],
+      "correct_answer": "Persistent connections reuse TCP connection for multiple requests, non-persistent create new connection for each request",
+      "level": "medium",
+      "explanation": "Persistent HTTP connections reuse the same TCP connection for multiple HTTP requests/responses, reducing overhead, while non-persistent connections create a new TCP connection for each request."
+    },
+    {
+      "id": "cn-hard-001",
+      "question": "What is BGP and why is it critical for internet routing?",
+      "options": [
+        "A local area network protocol",
+        "Border Gateway Protocol that enables routing between autonomous systems on the internet",
+        "A security protocol",
+        "A compression algorithm"
+      ],
+      "correct_answer": "Border Gateway Protocol that enables routing between autonomous systems on the internet",
+      "level": "hard",
+      "explanation": "BGP (Border Gateway Protocol) is the protocol that enables routing between different autonomous systems (AS) on the internet, making global internet connectivity possible by exchanging reachability information."
+    },
+    {
+      "id": "cn-hard-002",
+      "question": "What is the CAP theorem in distributed systems and how does it apply to networking?",
+      "options": [
+        "A mathematical formula",
+        "States that distributed systems can only guarantee two of: Consistency, Availability, Partition tolerance",
+        "A network security model",
+        "A routing algorithm"
+      ],
+      "correct_answer": "States that distributed systems can only guarantee two of: Consistency, Availability, Partition tolerance",
+      "level": "hard",
+      "explanation": "CAP theorem states that any distributed system can only simultaneously provide two of the three guarantees: Consistency, Availability, and Partition tolerance, which affects network architecture decisions."
+    },
+    {
+      "id": "cn-hard-003",
+      "question": "What is TCP congestion window and how do slow start and congestion avoidance algorithms work?",
+      "options": [
+        "A security feature",
+        "Congestion window controls sending rate; slow start exponentially increases window, congestion avoidance increases linearly",
+        "A routing mechanism",
+        "An encryption method"
+      ],
+      "correct_answer": "Congestion window controls sending rate; slow start exponentially increases window, congestion avoidance increases linearly",
+      "level": "hard",
+      "explanation": "TCP congestion window controls how much unacknowledged data can be in transit. Slow start exponentially increases the window size until a threshold, then congestion avoidance increases it linearly to prevent network congestion."
+    },
+    {
+      "id": "cn-hard-004",
+      "question": "What is the difference between anycast and geocast routing?",
+      "options": [
+        "No difference",
+        "Anycast delivers to nearest instance of service, geocast delivers to nodes in specific geographic area",
+        "Geocast is always faster",
+        "Anycast uses more bandwidth"
+      ],
+      "correct_answer": "Anycast delivers to nearest instance of service, geocast delivers to nodes in specific geographic area",
+      "level": "hard",
+      "explanation": "Anycast routing delivers packets to the nearest instance of a service (like DNS servers), while geocast routing delivers packets to all nodes within a specific geographical area."
+    },
+    {
+      "id": "cn-hard-005",
+      "question": "What is MPLS and how does it differ from traditional IP routing?",
+      "options": [
+        "A type of cable",
+        "Multi-Protocol Label Switching that uses labels for fast forwarding instead of IP address lookups",
+        "A security protocol",
+        "A compression technique"
+      ],
+      "correct_answer": "Multi-Protocol Label Switching that uses labels for fast forwarding instead of IP address lookups",
+      "level": "hard",
+      "explanation": "MPLS (Multi-Protocol Label Switching) uses labels attached to packets for fast forwarding decisions instead of complex IP address lookups, enabling traffic engineering and VPN services."
+    },
+    {
+      "id": "cn-hard-006",
+      "question": "What is the Byzantine Generals Problem and its relevance to network consensus?",
+      "options": [
+        "A historical problem",
+        "Consensus problem in distributed systems with potentially malicious actors, relevant for blockchain and fault-tolerant networks",
+        "A routing algorithm",
+        "A security protocol"
+      ],
+      "correct_answer": "Consensus problem in distributed systems with potentially malicious actors, relevant for blockchain and fault-tolerant networks",
+      "level": "hard",
+      "explanation": "The Byzantine Generals Problem addresses achieving consensus in distributed systems where some nodes may be malicious or unreliable, critical for blockchain networks and fault-tolerant distributed systems."
+    },
+    {
+      "id": "cn-hard-007",
+      "question": "What is TCP Fast Recovery and how does it improve performance?",
+      "options": [
+        "A compression technique",
+        "Algorithm that avoids slow start after packet loss by maintaining congestion window size",
+        "A routing protocol",
+        "An encryption method"
+      ],
+      "correct_answer": "Algorithm that avoids slow start after packet loss by maintaining congestion window size",
+      "level": "hard",
+      "explanation": "TCP Fast Recovery algorithm allows TCP to recover from packet loss without entering slow start, maintaining higher throughput by keeping the congestion window size larger during recovery."
+    },
+    {
+      "id": "cn-hard-008",
+      "question": "What is the difference between reactive and proactive routing protocols in mobile ad-hoc networks?",
+      "options": [
+        "No difference",
+        "Reactive protocols find routes on-demand, proactive protocols maintain routes continuously",
+        "Proactive protocols are always faster",
+        "Reactive protocols use more memory"
+      ],
+      "correct_answer": "Reactive protocols find routes on-demand, proactive protocols maintain routes continuously",
+      "level": "hard",
+      "explanation": "Reactive routing protocols (like AODV) discover routes only when needed, while proactive protocols (like OLSR) continuously maintain routing information, each with trade-offs in overhead and delay."
+    },
+    {
+      "id": "cn-hard-009",
+      "question": "What is network function virtualization (NFV) and its benefits?",
+      "options": [
+        "A type of cable",
+        "Running network functions as software on standard hardware instead of dedicated appliances",
+        "A routing protocol",
+        "A security measure"
+      ],
+      "correct_answer": "Running network functions as software on standard hardware instead of dedicated appliances",
+      "level": "hard",
+      "explanation": "NFV virtualizes network functions (like firewalls, load balancers) as software running on commodity hardware, reducing costs, increasing flexibility, and enabling rapid service deployment."
+    },
+    {
+      "id": "cn-hard-010",
+      "question": "What is Software-Defined Networking (SDN) and how does it change traditional networking?",
+      "options": [
+        "A type of software",
+        "Architecture that separates control plane from data plane, enabling centralized network control",
+        "A routing protocol",
+        "A security feature"
+      ],
+      "correct_answer": "Architecture that separates control plane from data plane, enabling centralized network control",
+      "level": "hard",
+      "explanation": "SDN separates the network control plane from the data plane, allowing centralized control and programmability of network behavior through software controllers like OpenFlow."
+    },
+    {
+      "id": "cn-hard-011",
+      "question": "What is the difference between cut-through and store-and-forward switching?",
+      "options": [
+        "No difference",
+        "Cut-through starts forwarding before receiving complete frame, store-and-forward waits for complete frame",
+        "Store-and-forward is always faster",
+        "Cut-through is more reliable"
+      ],
+      "correct_answer": "Cut-through starts forwarding before receiving complete frame, store-and-forward waits for complete frame",
+      "level": "hard",
+      "explanation": "Cut-through switching begins forwarding a frame as soon as the destination address is read, while store-and-forward switching receives the entire frame before forwarding, providing error checking but higher latency."
+    },
+    {
+      "id": "cn-hard-012",
+      "question": "What is TCP selective acknowledgment (SACK) and how does it improve performance?",
+      "options": [
+        "A security feature",
+        "Extension allowing receiver to acknowledge non-contiguous blocks of data to improve loss recovery",
+        "A routing protocol",
+        "A compression technique"
+      ],
+      "correct_answer": "Extension allowing receiver to acknowledge non-contiguous blocks of data to improve loss recovery",
+      "level": "hard",
+      "explanation": "TCP SACK allows the receiver to acknowledge non-contiguous blocks of correctly received data, enabling the sender to retransmit only the missing segments instead of all segments after the first loss."
+    },
+    {
+      "id": "cn-hard-013",
+      "question": "What is the purpose of RSVP in networking and how does it work?",
+      "options": [
+        "Email protocol",
+        "Resource Reservation Protocol for reserving network resources along a path for QoS",
+        "Routing protocol",
+        "Security protocol"
+      ],
+      "correct_answer": "Resource Reservation Protocol for reserving network resources along a path for QoS",
+      "level": "hard",
+      "explanation": "RSVP (Resource Reservation Protocol) allows applications to reserve network resources (bandwidth, buffer space) along a path to ensure Quality of Service for real-time applications."
+    },
+    {
+      "id": "cn-hard-014",
+      "question": "What is traffic shaping and how does it differ from traffic policing?",
+      "options": [
+        "No difference",
+        "Traffic shaping buffers excess traffic to smooth flow, traffic policing drops or marks excess traffic",
+        "Traffic policing is always better",
+        "Traffic shaping uses more memory"
+      ],
+      "correct_answer": "Traffic shaping buffers excess traffic to smooth flow, traffic policing drops or marks excess traffic",
+      "level": "hard",
+      "explanation": "Traffic shaping buffers excess packets to smooth out bursty traffic and maintain a steady rate, while traffic policing immediately drops or marks packets that exceed the configured rate."
+    },
+    {
+      "id": "cn-hard-015",
+      "question": "What is the count-to-infinity problem in distance vector routing and how is it solved?",
+      "options": [
+        "A mathematical error",
+        "Problem where incorrect routing information propagates slowly, solved by techniques like split horizon",
+        "A security issue",
+        "A hardware problem"
+      ],
+      "correct_answer": "Problem where incorrect routing information propagates slowly, solved by techniques like split horizon",
+      "level": "hard",
+      "explanation": "Count-to-infinity occurs when incorrect routing information propagates slowly through the network in distance vector protocols, solved by techniques like split horizon, poison reverse, and hold-down timers."
+    },
+    {
+      "id": "cn-hard-016",
+      "question": "What is IPv6 header compression and why is it important for IoT?",
+      "options": [
+        "General data compression",
+        "6LoWPAN compression reduces IPv6 header overhead for constrained IoT devices",
+        "A security feature",
+        "A routing protocol"
+      ],
+      "correct_answer": "6LoWPAN compression reduces IPv6 header overhead for constrained IoT devices",
+      "level": "hard",
+      "explanation": "IPv6 header compression, particularly in 6LoWPAN (IPv6 over Low-Power Wireless Personal Area Networks), reduces the large IPv6 header overhead to make it suitable for resource-constrained IoT devices."
+    },
+    {
+      "id": "cn-hard-017",
+      "question": "What is the difference between hard and soft QoS guarantees?",
+      "options": [
+        "No difference",
+        "Hard QoS provides absolute guarantees with admission control, soft QoS provides statistical guarantees",
+        "Soft QoS is always better",
+        "Hard QoS uses less resources"
+      ],
+      "correct_answer": "Hard QoS provides absolute guarantees with admission control, soft QoS provides statistical guarantees",
+      "level": "hard",
+      "explanation": "Hard QoS provides absolute guarantees for delay, bandwidth, and loss with strict admission control, while soft QoS provides statistical guarantees and best-effort service differentiation."
+    },
+    {
+      "id": "cn-hard-018",
+      "question": "What is TCP timestamp option and how does it help with performance?",
+      "options": [
+        "Shows current time",
+        "Enables better RTT measurement and protection against wrapped sequence numbers",
+        "A security feature",
+        "A compression technique"
+      ],
+      "correct_answer": "Enables better RTT measurement and protection against wrapped sequence numbers",
+      "level": "hard",
+      "explanation": "TCP timestamp option provides accurate round-trip time measurements for better congestion control and protects against wrapped sequence numbers in high-bandwidth networks (PAWS - Protection Against Wrapped Sequences)."
+    },
+    {
+      "id": "cn-hard-019",
+      "question": "What is the purpose of ECMP (Equal-Cost Multi-Path) routing?",
+      "options": [
+        "Security enhancement",
+        "Load balancing traffic across multiple equal-cost paths to improve utilization and reliability",
+        "Compression technique",
+        "Error correction"
+      ],
+      "correct_answer": "Load balancing traffic across multiple equal-cost paths to improve utilization and reliability",
+      "level": "hard",
+      "explanation": "ECMP allows routers to load balance traffic across multiple paths with equal cost to the same destination, improving network utilization and providing redundancy."
+    },
+    {
+      "id": "cn-hard-020",
+      "question": "What is network coding and how can it improve throughput?",
+      "options": [
+        "Programming networks",
+        "Technique where intermediate nodes combine packets algebraically to reduce transmissions",
+        "A security protocol",
+        "A routing algorithm"
+      ],
+      "correct_answer": "Technique where intermediate nodes combine packets algebraically to reduce transmissions",
+      "level": "hard",
+      "explanation": "Network coding allows intermediate nodes to combine multiple packets algebraically and forward the coded packet, reducing the total number of transmissions needed and improving network throughput."
+    },
+    {
+      "id": "cn-hard-021",
+      "question": "What is the purpose of QUIC protocol and how does it improve web performance?",
+      "options": [
+        "A routing protocol",
+        "Transport protocol built on UDP that reduces connection establishment overhead and provides multiplexing",
+        "A security protocol only",
+        "A compression algorithm"
+      ],
+      "correct_answer": "Transport protocol built on UDP that reduces connection establishment overhead and provides multiplexing",
+      "level": "hard",
+      "explanation": "QUIC (Quick UDP Internet Connections) is a transport protocol that reduces connection establishment latency, provides built-in encryption, and enables multiplexing without head-of-line blocking."
+    },
+    {
+      "id": "cn-hard-022",
+      "question": "What is the difference between centralized and distributed network management?",
+      "options": [
+        "No significant difference",
+        "Centralized uses single control point, distributed shares management across multiple nodes with different trade-offs",
+        "Distributed is always better",
+        "Centralized uses more resources"
+      ],
+      "correct_answer": "Centralized uses single control point, distributed shares management across multiple nodes with different trade-offs",
+      "level": "hard",
+      "explanation": "Centralized management provides global optimization and consistency but creates single points of failure, while distributed management offers resilience and scalability but faces coordination challenges."
+    },
+    {
+      "id": "cn-hard-023",
+      "question": "What is the purpose of segment routing and how does it differ from traditional MPLS?",
+      "options": [
+        "A security feature",
+        "Source-based routing that encodes path in packet header, simplifying network state management",
+        "A compression technique",
+        "An encryption method"
+      ],
+      "correct_answer": "Source-based routing that encodes path in packet header, simplifying network state management",
+      "level": "hard",
+      "explanation": "Segment routing encodes the forwarding path as a list of segments in the packet header, eliminating per-flow state in intermediate nodes and simplifying traffic engineering compared to traditional MPLS."
+    },
+    {
+      "id": "cn-hard-024",
+      "question": "What is intent-based networking (IBN) and how does it change network management?",
+      "options": [
+        "A routing protocol",
+        "Network management approach that translates business intent into network configuration automatically",
+        "A security framework",
+        "A hardware technology"
+      ],
+      "correct_answer": "Network management approach that translates business intent into network configuration automatically",
+      "level": "hard",
+      "explanation": "Intent-based networking allows administrators to specify high-level business policies and intent, which the system automatically translates into detailed network configurations and continuously monitors for compliance."
+    },
+    {
+      "id": "cn-hard-025",
+      "question": "What is the challenge of head-of-line blocking in HTTP/2 and how does HTTP/3 solve it?",
+      "options": [
+        "A security issue",
+        "TCP head-of-line blocking affects all streams; HTTP/3 uses QUIC with independent streams",
+        "A routing problem",
+        "A compression issue"
+      ],
+      "correct_answer": "TCP head-of-line blocking affects all streams; HTTP/3 uses QUIC with independent streams",
+      "level": "hard",
+      "explanation": "HTTP/2 multiplexes streams over single TCP connection, but TCP head-of-line blocking affects all streams. HTTP/3 uses QUIC to provide truly independent streams without head-of-line blocking."
+    },
+    {
+      "id": "cn-hard-026",
+      "question": "What is the difference between edge and fog computing in terms of network architecture?",
+      "options": [
+        "No difference",
+        "Edge computing processes at network edge, fog computing creates hierarchical processing layers",
+        "Fog computing is always faster",
+        "Edge computing uses more power"
+      ],
+      "correct_answer": "Edge computing processes at network edge, fog computing creates hierarchical processing layers",
+      "level": "hard",
+      "explanation": "Edge computing moves processing to the network edge closest to devices, while fog computing creates a hierarchical architecture with multiple processing layers between devices and cloud."
+    },
+    {
+      "id": "cn-hard-027",
+      "question": "What is network slicing in 5G and why is it important?",
+      "options": [
+        "Physical network division",
+        "Creating multiple virtual networks with different characteristics on shared infrastructure",
+        "A security feature",
+        "A compression technique"
+      ],
+      "correct_answer": "Creating multiple virtual networks with different characteristics on shared infrastructure",
+      "level": "hard",
+      "explanation": "5G network slicing creates multiple virtual networks with different performance characteristics (latency, bandwidth, reliability) on the same physical infrastructure to serve diverse use cases."
+    },
+    {
+      "id": "cn-hard-028",
+      "question": "What is the Byzantine fault tolerance and its application in blockchain networks?",
+      "options": [
+        "A routing protocol",
+        "Consensus mechanism that tolerates up to 1/3 malicious nodes in distributed systems",
+        "A compression algorithm",
+        "An encryption method"
+      ],
+      "correct_answer": "Consensus mechanism that tolerates up to 1/3 malicious nodes in distributed systems",
+      "level": "hard",
+      "explanation": "Byzantine Fault Tolerance enables distributed systems to reach consensus even when up to 1/3 of nodes are malicious or failed, critical for blockchain networks and fault-tolerant distributed systems."
+    },
+    {
+      "id": "cn-hard-029",
+      "question": "What is the difference between in-band and out-of-band network management?",
+      "options": [
+        "No difference",
+        "In-band uses same network for data and management, out-of-band uses separate management network",
+        "Out-of-band is always slower",
+        "In-band is more secure"
+      ],
+      "correct_answer": "In-band uses same network for data and management, out-of-band uses separate management network",
+      "level": "hard",
+      "explanation": "In-band management uses the same network infrastructure for both data and management traffic, while out-of-band management uses a separate, dedicated network for management functions, providing better security and availability."
+    },
+    {
+      "id": "cn-hard-030",
+      "question": "What is P4 (Programming Protocol-independent Packet Processors) and its significance?",
+      "options": [
+        "A routing protocol",
+        "Domain-specific language for programming network data plane behavior in switches and routers",
+        "A security framework",
+        "A compression standard"
+      ],
+      "correct_answer": "Domain-specific language for programming network data plane behavior in switches and routers",
+      "level": "hard",
+      "explanation": "P4 is a domain-specific programming language that allows developers to define how network switches and routers process packets, enabling protocol-independent and programmable data plane functionality."
+    }
+  ]
+}

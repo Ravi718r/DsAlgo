@@ -1,0 +1,1181 @@
+{
+  "subject": "Object-Oriented Programming (OOPs)",
+  "total_questions": 90,
+  "difficulty_distribution": {
+    "easy": 30,
+    "medium": 30,
+    "hard": 30
+  },
+  "questions": [
+    {
+      "id": "oop-easy-001",
+      "question": "What does OOP stand for?",
+      "options": [
+        "Object-Oriented Programming",
+        "Object-Oriented Process",
+        "Object-Oriented Protocol",
+        "Object-Oriented Procedure"
+      ],
+      "correct_answer": "Object-Oriented Programming",
+      "level": "easy",
+      "explanation": "OOP stands for Object-Oriented Programming, which is a programming paradigm based on the concept of objects."
+    },
+    {
+      "id": "oop-easy-002",
+      "question": "Which of the following is NOT a fundamental principle of OOP?",
+      "options": [
+        "Encapsulation",
+        "Inheritance",
+        "Compilation",
+        "Polymorphism"
+      ],
+      "correct_answer": "Compilation",
+      "level": "easy",
+      "explanation": "Compilation is a process of converting source code to machine code, not a principle of OOP. The four main principles are Encapsulation, Inheritance, Polymorphism, and Abstraction."
+    },
+    {
+      "id": "oop-easy-003",
+      "question": "What is an object in OOP?",
+      "options": [
+        "A function",
+        "A variable",
+        "An instance of a class",
+        "A loop"
+      ],
+      "correct_answer": "An instance of a class",
+      "level": "easy",
+      "explanation": "An object is an instance of a class that contains data (attributes) and methods (functions) that operate on that data."
+    },
+    {
+      "id": "oop-easy-004",
+      "question": "What is a class in OOP?",
+      "options": [
+        "A specific object",
+        "A blueprint or template for creating objects",
+        "A function definition",
+        "A data type"
+      ],
+      "correct_answer": "A blueprint or template for creating objects",
+      "level": "easy",
+      "explanation": "A class is a blueprint or template that defines the structure and behavior of objects that can be created from it."
+    },
+    {
+      "id": "oop-easy-005",
+      "question": "Which keyword is used to create an object in Java?",
+      "options": [
+        "create",
+        "new",
+        "object",
+        "instance"
+      ],
+      "correct_answer": "new",
+      "level": "easy",
+      "explanation": "In Java, the 'new' keyword is used to create an instance (object) of a class."
+    },
+    {
+      "id": "oop-easy-006",
+      "question": "What is encapsulation in OOP?",
+      "options": [
+        "Creating multiple objects",
+        "Hiding internal implementation details",
+        "Inheriting from parent class",
+        "Creating loops"
+      ],
+      "correct_answer": "Hiding internal implementation details",
+      "level": "easy",
+      "explanation": "Encapsulation is the principle of hiding internal implementation details and exposing only necessary interfaces to the outside world."
+    },
+    {
+      "id": "oop-easy-007",
+      "question": "Which access modifier allows access only within the same class?",
+      "options": [
+        "public",
+        "protected",
+        "private",
+        "default"
+      ],
+      "correct_answer": "private",
+      "level": "easy",
+      "explanation": "The private access modifier restricts access to members only within the same class where they are declared."
+    },
+    {
+      "id": "oop-easy-008",
+      "question": "What is inheritance in OOP?",
+      "options": [
+        "Creating new objects",
+        "Hiding data",
+        "Acquiring properties and methods from parent class",
+        "Destroying objects"
+      ],
+      "correct_answer": "Acquiring properties and methods from parent class",
+      "level": "easy",
+      "explanation": "Inheritance allows a class to acquire properties and methods from another class, promoting code reusability."
+    },
+    {
+      "id": "oop-easy-009",
+      "question": "Which keyword is used for inheritance in Java?",
+      "options": [
+        "inherits",
+        "extends",
+        "implements",
+        "derive"
+      ],
+      "correct_answer": "extends",
+      "level": "easy",
+      "explanation": "In Java, the 'extends' keyword is used to create inheritance relationship between classes."
+    },
+    {
+      "id": "oop-easy-010",
+      "question": "What is polymorphism in OOP?",
+      "options": [
+        "Having multiple forms",
+        "Creating objects",
+        "Hiding data",
+        "Destroying objects"
+      ],
+      "correct_answer": "Having multiple forms",
+      "level": "easy",
+      "explanation": "Polymorphism means 'many forms' and allows objects of different classes to be treated as objects of a common base class."
+    },
+    {
+      "id": "oop-easy-011",
+      "question": "Which of the following is an example of polymorphism?",
+      "options": [
+        "Method overloading",
+        "Creating objects",
+        "Using private variables",
+        "Writing comments"
+      ],
+      "correct_answer": "Method overloading",
+      "level": "easy",
+      "explanation": "Method overloading is an example of compile-time polymorphism where multiple methods have the same name but different parameters."
+    },
+    {
+      "id": "oop-easy-012",
+      "question": "What is abstraction in OOP?",
+      "options": [
+        "Showing all implementation details",
+        "Hiding unnecessary details and showing only essential features",
+        "Creating multiple objects",
+        "Deleting objects"
+      ],
+      "correct_answer": "Hiding unnecessary details and showing only essential features",
+      "level": "easy",
+      "explanation": "Abstraction focuses on hiding unnecessary implementation details while showing only the essential features of an object."
+    },
+    {
+      "id": "oop-easy-013",
+      "question": "Which keyword is used to prevent inheritance in Java?",
+      "options": [
+        "static",
+        "final",
+        "abstract",
+        "private"
+      ],
+      "correct_answer": "final",
+      "level": "easy",
+      "explanation": "The 'final' keyword when applied to a class prevents it from being inherited by other classes."
+    },
+    {
+      "id": "oop-easy-014",
+      "question": "What is a constructor in OOP?",
+      "options": [
+        "A method to destroy objects",
+        "A special method to initialize objects",
+        "A method to copy objects",
+        "A method to compare objects"
+      ],
+      "correct_answer": "A special method to initialize objects",
+      "level": "easy",
+      "explanation": "A constructor is a special method that is automatically called when an object is created to initialize its state."
+    },
+    {
+      "id": "oop-easy-015",
+      "question": "Can a constructor return a value in Java?",
+      "options": [
+        "Yes, any data type",
+        "Yes, only integers",
+        "No, constructors cannot return values",
+        "Yes, only strings"
+      ],
+      "correct_answer": "No, constructors cannot return values",
+      "level": "easy",
+      "explanation": "Constructors in Java do not have a return type, not even void. They are used solely for object initialization."
+    },
+    {
+      "id": "oop-easy-016",
+      "question": "What is method overloading?",
+      "options": [
+        "Having methods with same name but different parameters",
+        "Having methods with different names",
+        "Creating multiple classes",
+        "Destroying methods"
+      ],
+      "correct_answer": "Having methods with same name but different parameters",
+      "level": "easy",
+      "explanation": "Method overloading allows multiple methods with the same name but different parameter lists in the same class."
+    },
+    {
+      "id": "oop-easy-017",
+      "question": "Which access modifier allows access within the same package?",
+      "options": [
+        "private",
+        "protected",
+        "public",
+        "default (package-private)"
+      ],
+      "correct_answer": "default (package-private)",
+      "level": "easy",
+      "explanation": "Default (package-private) access modifier allows access to members within the same package."
+    },
+    {
+      "id": "oop-easy-018",
+      "question": "What is the parent class of all classes in Java?",
+      "options": [
+        "Class",
+        "Object",
+        "Super",
+        "Base"
+      ],
+      "correct_answer": "Object",
+      "level": "easy",
+      "explanation": "The Object class is the root of the class hierarchy in Java. Every class implicitly extends Object."
+    },
+    {
+      "id": "oop-easy-019",
+      "question": "Which keyword is used to call parent class constructor?",
+      "options": [
+        "parent()",
+        "super()",
+        "base()",
+        "this()"
+      ],
+      "correct_answer": "super()",
+      "level": "easy",
+      "explanation": "The super() keyword is used to call the constructor of the parent class."
+    },
+    {
+      "id": "oop-easy-020",
+      "question": "What is an interface in Java?",
+      "options": [
+        "A class with only concrete methods",
+        "A contract specifying what methods a class must implement",
+        "A type of variable",
+        "A loop structure"
+      ],
+      "correct_answer": "A contract specifying what methods a class must implement",
+      "level": "easy",
+      "explanation": "An interface defines a contract that specifies what methods a class must implement, providing a way to achieve multiple inheritance."
+    },
+    {
+      "id": "oop-easy-021",
+      "question": "Which keyword is used to implement an interface?",
+      "options": [
+        "extends",
+        "implements",
+        "inherits",
+        "uses"
+      ],
+      "correct_answer": "implements",
+      "level": "easy",
+      "explanation": "The 'implements' keyword is used when a class wants to implement an interface."
+    },
+    {
+      "id": "oop-easy-022",
+      "question": "Can a class implement multiple interfaces in Java?",
+      "options": [
+        "Yes",
+        "No",
+        "Only two interfaces",
+        "Only if they are related"
+      ],
+      "correct_answer": "Yes",
+      "level": "easy",
+      "explanation": "A class can implement multiple interfaces in Java, which provides a way to achieve multiple inheritance."
+    },
+    {
+      "id": "oop-easy-023",
+      "question": "What is the default access modifier for interface methods?",
+      "options": [
+        "private",
+        "protected",
+        "public",
+        "default"
+      ],
+      "correct_answer": "public",
+      "level": "easy",
+      "explanation": "Interface methods are implicitly public and abstract (before Java 8). They are meant to be implemented by classes."
+    },
+    {
+      "id": "oop-easy-024",
+      "question": "What is a static method?",
+      "options": [
+        "A method that belongs to the class rather than instance",
+        "A method that cannot be called",
+        "A method that returns nothing",
+        "A method that takes no parameters"
+      ],
+      "correct_answer": "A method that belongs to the class rather than instance",
+      "level": "easy",
+      "explanation": "Static methods belong to the class itself rather than to any specific instance and can be called without creating an object."
+    },
+    {
+      "id": "oop-easy-025",
+      "question": "Which of the following is true about abstract classes?",
+      "options": [
+        "Can be instantiated directly",
+        "Cannot have concrete methods",
+        "Cannot be instantiated directly",
+        "Cannot have constructors"
+      ],
+      "correct_answer": "Cannot be instantiated directly",
+      "level": "easy",
+      "explanation": "Abstract classes cannot be instantiated directly. They must be extended by concrete classes that implement all abstract methods."
+    },
+    {
+      "id": "oop-easy-026",
+      "question": "What is the 'this' keyword used for?",
+      "options": [
+        "To refer to parent class",
+        "To refer to current object instance",
+        "To create new objects",
+        "To destroy objects"
+      ],
+      "correct_answer": "To refer to current object instance",
+      "level": "easy",
+      "explanation": "The 'this' keyword refers to the current object instance and is used to access instance variables and methods."
+    },
+    {
+      "id": "oop-easy-027",
+      "question": "What is garbage collection in Java?",
+      "options": [
+        "Manual memory management",
+        "Automatic memory management",
+        "Deleting source code",
+        "Cleaning up variables"
+      ],
+      "correct_answer": "Automatic memory management",
+      "level": "easy",
+      "explanation": "Garbage collection is Java's automatic memory management system that reclaims memory used by objects that are no longer referenced."
+    },
+    {
+      "id": "oop-easy-028",
+      "question": "What is method overriding?",
+      "options": [
+        "Creating methods with same name in same class",
+        "Redefining parent class method in child class",
+        "Deleting methods",
+        "Creating static methods"
+      ],
+      "correct_answer": "Redefining parent class method in child class",
+      "level": "easy",
+      "explanation": "Method overriding occurs when a child class provides a specific implementation of a method that is already defined in its parent class."
+    },
+    {
+      "id": "oop-easy-029",
+      "question": "Which annotation is used to indicate method overriding in Java?",
+      "options": [
+        "@Override",
+        "@Overload",
+        "@Inherit",
+        "@Method"
+      ],
+      "correct_answer": "@Override",
+      "level": "easy",
+      "explanation": "The @Override annotation is used to indicate that a method is overriding a method from its parent class."
+    },
+    {
+      "id": "oop-easy-030",
+      "question": "What is composition in OOP?",
+      "options": [
+        "Inheriting from multiple classes",
+        "Creating objects of other classes as instance variables",
+        "Overloading methods",
+        "Using static methods"
+      ],
+      "correct_answer": "Creating objects of other classes as instance variables",
+      "level": "easy",
+      "explanation": "Composition is a design principle where objects are composed of other objects as instance variables, representing 'has-a' relationship."
+    },
+    {
+      "id": "oop-medium-001",
+      "question": "What happens if a class doesn't explicitly define a constructor?",
+      "options": [
+        "Compilation error occurs",
+        "Java provides a default no-argument constructor",
+        "Objects cannot be created",
+        "Class becomes abstract"
+      ],
+      "correct_answer": "Java provides a default no-argument constructor",
+      "level": "medium",
+      "explanation": "If no constructor is explicitly defined, Java automatically provides a default no-argument constructor that initializes instance variables to their default values."
+    },
+    {
+      "id": "oop-medium-002",
+      "question": "What is the difference between method overloading and method overriding?",
+      "options": [
+        "No difference, they are the same",
+        "Overloading is compile-time polymorphism, overriding is runtime polymorphism",
+        "Overloading is runtime polymorphism, overriding is compile-time polymorphism",
+        "Both are runtime polymorphism"
+      ],
+      "correct_answer": "Overloading is compile-time polymorphism, overriding is runtime polymorphism",
+      "level": "medium",
+      "explanation": "Method overloading is resolved at compile-time (early binding) while method overriding is resolved at runtime (late binding) based on the actual object type."
+    },
+    {
+      "id": "oop-medium-003",
+      "question": "What is the diamond problem in multiple inheritance?",
+      "options": [
+        "A syntax error in code",
+        "Ambiguity when inheriting from multiple classes with same method",
+        "A design pattern",
+        "A compilation optimization"
+      ],
+      "correct_answer": "Ambiguity when inheriting from multiple classes with same method",
+      "level": "medium",
+      "explanation": "The diamond problem occurs when a class inherits from multiple classes that have the same method, creating ambiguity about which method to inherit."
+    },
+    {
+      "id": "oop-medium-004",
+      "question": "How does Java handle the diamond problem?",
+      "options": [
+        "Allows multiple inheritance of classes",
+        "Does not support multiple inheritance of classes, only interfaces",
+        "Randomly chooses one parent method",
+        "Merges all parent methods"
+      ],
+      "correct_answer": "Does not support multiple inheritance of classes, only interfaces",
+      "level": "medium",
+      "explanation": "Java avoids the diamond problem by not supporting multiple inheritance of classes, but allows multiple inheritance through interfaces."
+    },
+    {
+      "id": "oop-medium-005",
+      "question": "What is the difference between abstract class and interface in Java 8+?",
+      "options": [
+        "No difference",
+        "Abstract classes can have constructors and state, interfaces cannot",
+        "Interfaces can have constructors, abstract classes cannot",
+        "Abstract classes cannot have methods"
+      ],
+      "correct_answer": "Abstract classes can have constructors and state, interfaces cannot",
+      "level": "medium",
+      "explanation": "Abstract classes can have constructors, instance variables, and state, while interfaces cannot have constructors or instance variables (though they can have default and static methods since Java 8)."
+    },
+    {
+      "id": "oop-medium-006",
+      "question": "What is dynamic method dispatch?",
+      "options": [
+        "Calling methods at compile time",
+        "Runtime determination of which method to call based on object type",
+        "Creating methods dynamically",
+        "Deleting methods at runtime"
+      ],
+      "correct_answer": "Runtime determination of which method to call based on object type",
+      "level": "medium",
+      "explanation": "Dynamic method dispatch is the mechanism by which a call to an overridden method is resolved at runtime based on the actual type of the object."
+    },
+    {
+      "id": "oop-medium-007",
+      "question": "What is the purpose of the finalize() method?",
+      "options": [
+        "To initialize objects",
+        "To perform cleanup before garbage collection",
+        "To create new objects",
+        "To compare objects"
+      ],
+      "correct_answer": "To perform cleanup before garbage collection",
+      "level": "medium",
+      "explanation": "The finalize() method is called by the garbage collector before an object is destroyed, allowing for cleanup operations (though it's deprecated and not recommended)."
+    },
+    {
+      "id": "oop-medium-008",
+      "question": "What is the difference between == and equals() method?",
+      "options": [
+        "No difference",
+        "== compares references, equals() compares content",
+        "== compares content, equals() compares references",
+        "Both compare only references"
+      ],
+      "correct_answer": "== compares references, equals() compares content",
+      "level": "medium",
+      "explanation": "The == operator compares object references (memory addresses), while equals() method compares the actual content of objects (when properly overridden)."
+    },
+    {
+      "id": "oop-medium-009",
+      "question": "What is autoboxing and unboxing?",
+      "options": [
+        "Manual conversion between primitives and objects",
+        "Automatic conversion between primitive types and wrapper classes",
+        "Creating boxes for objects",
+        "Deleting unused objects"
+      ],
+      "correct_answer": "Automatic conversion between primitive types and wrapper classes",
+      "level": "medium",
+      "explanation": "Autoboxing automatically converts primitive types to their wrapper class objects, while unboxing converts wrapper objects back to primitives."
+    },
+    {
+      "id": "oop-medium-010",
+      "question": "What is the Liskov Substitution Principle?",
+      "options": [
+        "Objects should be replaceable with instances of their subtypes",
+        "Classes should be final",
+        "Methods should be static",
+        "Interfaces should be empty"
+      ],
+      "correct_answer": "Objects should be replaceable with instances of their subtypes",
+      "level": "medium",
+      "explanation": "The Liskov Substitution Principle states that objects of a superclass should be replaceable with objects of its subclasses without breaking the application."
+    },
+    {
+      "id": "oop-medium-011",
+      "question": "What is the purpose of clone() method?",
+      "options": [
+        "To create a shallow or deep copy of an object",
+        "To delete objects",
+        "To compare objects",
+        "To initialize objects"
+      ],
+      "correct_answer": "To create a shallow or deep copy of an object",
+      "level": "medium",
+      "explanation": "The clone() method creates a copy of an object. It can perform shallow copying (default) or deep copying (when overridden properly)."
+    },
+    {
+      "id": "oop-medium-012",
+      "question": "What is the difference between aggregation and composition?",
+      "options": [
+        "No difference",
+        "Aggregation is 'has-a' with independent lifecycle, composition is 'has-a' with dependent lifecycle",
+        "Aggregation uses inheritance, composition uses interfaces",
+        "Composition is 'is-a', aggregation is 'has-a'"
+      ],
+      "correct_answer": "Aggregation is 'has-a' with independent lifecycle, composition is 'has-a' with dependent lifecycle",
+      "level": "medium",
+      "explanation": "In aggregation, contained objects can exist independently of the container, while in composition, contained objects cannot exist without the container."
+    },
+    {
+      "id": "oop-medium-013",
+      "question": "What are default methods in interfaces (Java 8+)?",
+      "options": [
+        "Abstract methods",
+        "Methods with implementation that can be inherited",
+        "Private methods",
+        "Static methods only"
+      ],
+      "correct_answer": "Methods with implementation that can be inherited",
+      "level": "medium",
+      "explanation": "Default methods in interfaces have implementation and can be inherited by implementing classes, allowing interface evolution without breaking existing code."
+    },
+    {
+      "id": "oop-medium-014",
+      "question": "What is the difference between early binding and late binding?",
+      "options": [
+        "No difference",
+        "Early binding occurs at compile-time, late binding occurs at runtime",
+        "Early binding occurs at runtime, late binding occurs at compile-time",
+        "Both occur at the same time"
+      ],
+      "correct_answer": "Early binding occurs at compile-time, late binding occurs at runtime",
+      "level": "medium",
+      "explanation": "Early binding (static binding) resolves method calls at compile-time, while late binding (dynamic binding) resolves them at runtime."
+    },
+    {
+      "id": "oop-medium-015",
+      "question": "What is method hiding in Java?",
+      "options": [
+        "Making methods private",
+        "Static method in subclass with same signature as parent's static method",
+        "Deleting methods",
+        "Overloading methods"
+      ],
+      "correct_answer": "Static method in subclass with same signature as parent's static method",
+      "level": "medium",
+      "explanation": "Method hiding occurs when a subclass defines a static method with the same signature as a static method in the parent class, hiding the parent's method."
+    },
+    {
+      "id": "oop-medium-016",
+      "question": "What is the difference between tight coupling and loose coupling?",
+      "options": [
+        "No difference",
+        "Tight coupling has high dependency, loose coupling has low dependency",
+        "Tight coupling is better for performance",
+        "Loose coupling uses more memory"
+      ],
+      "correct_answer": "Tight coupling has high dependency, loose coupling has low dependency",
+      "level": "medium",
+      "explanation": "Tight coupling means classes are highly dependent on each other, while loose coupling means classes have minimal dependencies, making code more maintainable."
+    },
+    {
+      "id": "oop-medium-017",
+      "question": "What is constructor chaining?",
+      "options": [
+        "Creating multiple constructors",
+        "Calling one constructor from another using this() or super()",
+        "Deleting constructors",
+        "Making constructors static"
+      ],
+      "correct_answer": "Calling one constructor from another using this() or super()",
+      "level": "medium",
+      "explanation": "Constructor chaining is the process of calling one constructor from another constructor in the same class (this()) or parent class (super())."
+    },
+    {
+      "id": "oop-medium-018",
+      "question": "What is the instanceof operator used for?",
+      "options": [
+        "Creating instances",
+        "Checking if an object is an instance of a specific class or interface",
+        "Deleting instances",
+        "Comparing primitive values"
+      ],
+      "correct_answer": "Checking if an object is an instance of a specific class or interface",
+      "level": "medium",
+      "explanation": "The instanceof operator tests whether an object is an instance of a specific class, subclass, or interface."
+    },
+    {
+      "id": "oop-medium-019",
+      "question": "What happens when you try to access a private member from outside the class?",
+      "options": [
+        "Returns null",
+        "Compilation error",
+        "Runtime exception",
+        "Returns default value"
+      ],
+      "correct_answer": "Compilation error",
+      "level": "medium",
+      "explanation": "Attempting to access a private member from outside its class results in a compilation error because private members are not accessible outside their declaring class."
+    },
+    {
+      "id": "oop-medium-020",
+      "question": "What is the super keyword used for?",
+      "options": [
+        "Only to call parent constructor",
+        "To access parent class members and call parent constructor",
+        "To create objects",
+        "To make methods static"
+      ],
+      "correct_answer": "To access parent class members and call parent constructor",
+      "level": "medium",
+      "explanation": "The super keyword is used to access parent class members (methods and variables) and to call parent class constructors."
+    },
+    {
+      "id": "oop-medium-021",
+      "question": "What is a nested class?",
+      "options": [
+        "A class inside a method",
+        "A class defined inside another class",
+        "A class that inherits from multiple classes",
+        "A class with no methods"
+      ],
+      "correct_answer": "A class defined inside another class",
+      "level": "medium",
+      "explanation": "A nested class is a class defined within another class. It can be static or non-static (inner class)."
+    },
+    {
+      "id": "oop-medium-022",
+      "question": "What is the difference between static and non-static nested classes?",
+      "options": [
+        "No difference",
+        "Static nested classes cannot access outer class instance members",
+        "Non-static nested classes cannot access outer class members",
+        "Static nested classes are always public"
+      ],
+      "correct_answer": "Static nested classes cannot access outer class instance members",
+      "level": "medium",
+      "explanation": "Static nested classes cannot access non-static members of the outer class directly, while non-static nested classes (inner classes) can."
+    },
+    {
+      "id": "oop-medium-023",
+      "question": "What is anonymous class?",
+      "options": [
+        "A class with no name",
+        "A class defined and instantiated in a single expression",
+        "A class that cannot be instantiated",
+        "A class with only static methods"
+      ],
+      "correct_answer": "A class defined and instantiated in a single expression",
+      "level": "medium",
+      "explanation": "An anonymous class is a local class without a name that is defined and instantiated in a single expression, often used for implementing interfaces or extending classes inline."
+    },
+    {
+      "id": "oop-medium-024",
+      "question": "What is method signature?",
+      "options": [
+        "Method name only",
+        "Method name and parameter list",
+        "Method name and return type",
+        "Return type only"
+      ],
+      "correct_answer": "Method name and parameter list",
+      "level": "medium",
+      "explanation": "Method signature consists of the method name and the parameter list (types and order). Return type is not part of the method signature in Java."
+    },
+    {
+      "id": "oop-medium-025",
+      "question": "What is covariant return type?",
+      "options": [
+        "Returning the same type as parent method",
+        "Returning a subtype of parent method's return type",
+        "Returning any type",
+        "Not returning anything"
+      ],
+      "correct_answer": "Returning a subtype of parent method's return type",
+      "level": "medium",
+      "explanation": "Covariant return type allows an overriding method to return a subtype of the return type declared in the parent method."
+    },
+    {
+      "id": "oop-medium-026",
+      "question": "What is the difference between HashCode() and equals()?",
+      "options": [
+        "No difference",
+        "hashCode() returns integer hash, equals() compares content",
+        "hashCode() compares content, equals() returns hash",
+        "Both return boolean values"
+      ],
+      "correct_answer": "hashCode() returns integer hash, equals() compares content",
+      "level": "medium",
+      "explanation": "hashCode() returns an integer hash value for the object, while equals() compares the content of objects for equality."
+    },
+    {
+      "id": "oop-medium-027",
+      "question": "What is the contract between hashCode() and equals()?",
+      "options": [
+        "No relationship",
+        "If two objects are equal, they must have the same hash code",
+        "If two objects have same hash code, they must be equal",
+        "They should never be overridden together"
+      ],
+      "correct_answer": "If two objects are equal, they must have the same hash code",
+      "level": "medium",
+      "explanation": "The contract states that if two objects are equal according to equals(), they must have the same hash code, but objects with same hash code need not be equal."
+    },
+    {
+      "id": "oop-medium-028",
+      "question": "What is immutable object?",
+      "options": [
+        "An object that can be changed after creation",
+        "An object whose state cannot be changed after creation",
+        "An object that cannot be created",
+        "An object with no methods"
+      ],
+      "correct_answer": "An object whose state cannot be changed after creation",
+      "level": "medium",
+      "explanation": "An immutable object is one whose state cannot be modified after it is created. String is an example of immutable class in Java."
+    },
+    {
+      "id": "oop-medium-029",
+      "question": "What are the benefits of immutable objects?",
+      "options": [
+        "Faster execution only",
+        "Thread safety, simplicity, and can be used as hash keys",
+        "Uses less memory only",
+        "Easier to debug only"
+      ],
+      "correct_answer": "Thread safety, simplicity, and can be used as hash keys",
+      "level": "medium",
+      "explanation": "Immutable objects are inherently thread-safe, simpler to understand and use, and can safely be used as hash keys since their hash code won't change."
+    },
+    {
+      "id": "oop-medium-030",
+      "question": "What is the Singleton design pattern?",
+      "options": [
+        "A pattern that allows multiple instances",
+        "A pattern that ensures only one instance of a class exists",
+        "A pattern for creating interfaces",
+        "A pattern for method overloading"
+      ],
+      "correct_answer": "A pattern that ensures only one instance of a class exists",
+      "level": "medium",
+      "explanation": "Singleton pattern ensures that a class has only one instance and provides a global point of access to that instance."
+    },
+    {
+      "id": "oop-hard-001",
+      "question": "What is the output of calling super() in a constructor when the parent class has no default constructor?",
+      "options": [
+        "Runtime exception",
+        "Compilation error",
+        "Creates default constructor automatically",
+        "Program runs normally"
+      ],
+      "correct_answer": "Compilation error",
+      "level": "hard",
+      "explanation": "If the parent class doesn't have a no-argument constructor and super() is called (implicitly or explicitly), it results in a compilation error because there's no matching constructor to call."
+    },
+    {
+      "id": "oop-hard-002",
+      "question": "What happens when a static method is called using an object reference that is null?",
+      "options": [
+        "NullPointerException is thrown",
+        "Method executes normally",
+        "Compilation error",
+        "Runtime error but not exception"
+      ],
+      "correct_answer": "Method executes normally",
+      "level": "hard",
+      "explanation": "Static methods are resolved at compile-time based on the reference type, not the object. Even if the reference is null, the static method will execute normally."
+    },
+    {
+      "id": "oop-hard-003",
+      "question": "In multiple inheritance through interfaces, what happens if two interfaces have default methods with same signature?",
+      "options": [
+        "Randomly picks one method",
+        "Compilation error unless explicitly resolved",
+        "Both methods are called",
+        "The first interface method is chosen"
+      ],
+      "correct_answer": "Compilation error unless explicitly resolved",
+      "level": "hard",
+      "explanation": "When a class implements multiple interfaces with conflicting default methods, it must explicitly override the method to resolve the conflict, otherwise compilation fails."
+    },
+    {
+      "id": "oop-hard-004",
+      "question": "What is the difference between fail-fast and fail-safe iterators?",
+      "options": [
+        "No difference",
+        "Fail-fast throws exception on concurrent modification, fail-safe works on copy",
+        "Fail-safe throws exception, fail-fast works on copy",
+        "Both work the same way"
+      ],
+      "correct_answer": "Fail-fast throws exception on concurrent modification, fail-safe works on copy",
+      "level": "hard",
+      "explanation": "Fail-fast iterators throw ConcurrentModificationException when collection is modified during iteration, while fail-safe iterators work on a copy and don't throw exceptions."
+    },
+    {
+      "id": "oop-hard-005",
+      "question": "What is phantom reference in Java?",
+      "options": [
+        "A reference that prevents garbage collection",
+        "A reference used to know when object is finalized",
+        "A reference that never gets null",
+        "A reference to static objects"
+      ],
+      "correct_answer": "A reference used to know when object is finalized",
+      "level": "hard",
+      "explanation": "Phantom references are used to determine when an object has been removed from memory by the garbage collector, allowing cleanup actions to be performed."
+    },
+    {
+      "id": "oop-hard-006",
+      "question": "What is the difference between ClassNotFoundException and NoClassDefFoundError?",
+      "options": [
+        "No difference",
+        "ClassNotFoundException is checked exception, NoClassDefFoundError is runtime error",
+        "ClassNotFoundException is runtime error, NoClassDefFoundError is checked exception",
+        "Both are the same type of exception"
+      ],
+      "correct_answer": "ClassNotFoundException is checked exception, NoClassDefFoundError is runtime error",
+      "level": "hard",
+      "explanation": "ClassNotFoundException is a checked exception thrown when class is not found in classpath, while NoClassDefFoundError is an error thrown when class was available at compile time but not at runtime."
+    },
+    {
+      "id": "oop-hard-007",
+      "question": "What happens if finalize() method throws an exception?",
+      "options": [
+        "Program terminates",
+        "Exception is ignored and garbage collection continues",
+        "Object is not garbage collected",
+        "Compilation error"
+      ],
+      "correct_answer": "Exception is ignored and garbage collection continues",
+      "level": "hard",
+      "explanation": "If finalize() throws an uncaught exception, it is ignored by the garbage collector and the finalization process continues normally."
+    },
+    {
+      "id": "oop-hard-008",
+      "question": "What is the purpose of volatile keyword in Java?",
+      "options": [
+        "To make variables immutable",
+        "To ensure visibility of variable changes across threads",
+        "To make variables static",
+        "To prevent inheritance"
+      ],
+      "correct_answer": "To ensure visibility of variable changes across threads",
+      "level": "hard",
+      "explanation": "The volatile keyword ensures that changes to a variable are immediately visible to all threads and prevents caching of the variable value in thread-local memory."
+    },
+    {
+      "id": "oop-hard-009",
+      "question": "What is the happens-before relationship in Java memory model?",
+      "options": [
+        "The order of method calls",
+        "A guarantee about memory visibility between threads",
+        "The inheritance hierarchy",
+        "The order of object creation"
+      ],
+      "correct_answer": "A guarantee about memory visibility between threads",
+      "level": "hard",
+      "explanation": "Happens-before relationship defines when actions in one thread are guaranteed to be visible to actions in another thread, establishing memory consistency rules."
+    },
+    {
+      "id": "oop-hard-010",
+      "question": "What is the difference between synchronized method and synchronized block?",
+      "options": [
+        "No difference",
+        "Synchronized method locks entire object, synchronized block can lock specific objects",
+        "Synchronized block locks entire object, synchronized method locks specific objects",
+        "Both lock the same resources"
+      ],
+      "correct_answer": "Synchronized method locks entire object, synchronized block can lock specific objects",
+      "level": "hard",
+      "explanation": "Synchronized methods acquire lock on the entire object (this), while synchronized blocks can acquire locks on specific objects, providing more granular control."
+    },
+    {
+      "id": "oop-hard-011",
+      "question": "What is double-checked locking in Singleton pattern?",
+      "options": [
+        "Checking for null twice for thread safety",
+        "Using two different locks",
+        "Checking instance twice with synchronized block for performance",
+        "Having two singleton instances"
+      ],
+      "correct_answer": "Checking instance twice with synchronized block for performance",
+      "level": "hard",
+      "explanation": "Double-checked locking pattern checks the instance twice (once without synchronization, once with) to reduce synchronization overhead while maintaining thread safety."
+    },
+    {
+      "id": "oop-hard-012",
+      "question": "What is the problem with double-checked locking without volatile?",
+      "options": [
+        "No problem",
+        "Partial initialization visibility due to instruction reordering",
+        "Performance issues only",
+        "Memory leaks"
+      ],
+      "correct_answer": "Partial initialization visibility due to instruction reordering",
+      "level": "hard",
+      "explanation": "Without volatile, instruction reordering can cause another thread to see a partially initialized object, leading to incorrect behavior."
+    },
+    {
+      "id": "oop-hard-013",
+      "question": "What is the bridge method in Java?",
+      "options": [
+        "A method that connects two classes",
+        "Synthetic method created by compiler for type erasure in generics",
+        "A method in interface",
+        "A constructor method"
+      ],
+      "correct_answer": "Synthetic method created by compiler for type erasure in generics",
+      "level": "hard",
+      "explanation": "Bridge methods are synthetic methods created by the compiler to maintain polymorphism when generics are involved and type erasure occurs."
+    },
+    {
+      "id": "oop-hard-014",
+      "question": "What is method area in JVM memory?",
+      "options": [
+        "Area where objects are stored",
+        "Area where class metadata, method code, and static variables are stored",
+        "Area for local variables",
+        "Area for garbage collection"
+      ],
+      "correct_answer": "Area where class metadata, method code, and static variables are stored",
+      "level": "hard",
+      "explanation": "Method area (Metaspace in Java 8+) stores class-level information including class metadata, method bytecode, static variables, and constant pool."
+    },
+    {
+      "id": "oop-hard-015",
+      "question": "What is escape analysis in JVM?",
+      "options": [
+        "Analysis of method calls",
+        "Analysis to determine if objects can be allocated on stack instead of heap",
+        "Analysis of exception handling",
+        "Analysis of inheritance hierarchy"
+      ],
+      "correct_answer": "Analysis to determine if objects can be allocated on stack instead of heap",
+      "level": "hard",
+      "explanation": "Escape analysis determines whether objects escape the method scope, allowing JVM to optimize by allocating non-escaping objects on stack instead of heap."
+    },
+    {
+      "id": "oop-hard-016",
+      "question": "What is the difference between heap pollution and type safety?",
+      "options": [
+        "No difference",
+        "Heap pollution is mixing parameterized types, type safety prevents invalid operations",
+        "Both are the same concept",
+        "Heap pollution prevents type safety"
+      ],
+      "correct_answer": "Heap pollution is mixing parameterized types, type safety prevents invalid operations",
+      "level": "hard",
+      "explanation": "Heap pollution occurs when parameterized types are mixed unsafely (often with raw types), while type safety is the broader concept of preventing invalid type operations."
+    },
+    {
+      "id": "oop-hard-017",
+      "question": "What is reification in the context of Java generics?",
+      "options": [
+        "Type information available at runtime",
+        "Type information erased at runtime",
+        "Creating generic classes",
+        "Type checking at compile time"
+      ],
+      "correct_answer": "Type information available at runtime",
+      "level": "hard",
+      "explanation": "Reification means type information is available at runtime. Java generics are not reified due to type erasure, unlike arrays which are reified."
+    },
+    {
+      "id": "oop-hard-018",
+      "question": "What is the purpose of @FunctionalInterface annotation?",
+      "options": [
+        "To create functional methods",
+        "To indicate interface has exactly one abstract method for lambda expressions",
+        "To make interface static",
+        "To prevent inheritance"
+      ],
+      "correct_answer": "To indicate interface has exactly one abstract method for lambda expressions",
+      "level": "hard",
+      "explanation": "@FunctionalInterface annotation indicates that the interface is intended to be a functional interface (having exactly one abstract method) and can be used with lambda expressions."
+    },
+    {
+      "id": "oop-hard-019",
+      "question": "What is method handle in Java?",
+      "options": [
+        "A reference to method signature",
+        "A typed, directly executable reference to a method, constructor, or field",
+        "A method parameter",
+        "A method return type"
+      ],
+      "correct_answer": "A typed, directly executable reference to a method, constructor, or field",
+      "level": "hard",
+      "explanation": "MethodHandle is a typed, directly executable reference to an underlying method, constructor, field, or similar low-level operation, providing more direct access than reflection."
+    },
+    {
+      "id": "oop-hard-020",
+      "question": "What is the difference between invokedynamic and traditional method invocation?",
+      "options": [
+        "No difference",
+        "invokedynamic allows runtime determination of call target, traditional is compile-time",
+        "invokedynamic is slower",
+        "Traditional invocation is more flexible"
+      ],
+      "correct_answer": "invokedynamic allows runtime determination of call target, traditional is compile-time",
+      "level": "hard",
+      "explanation": "invokedynamic instruction allows the call target to be determined at runtime through bootstrap methods, while traditional invocation resolves targets at compile-time or class loading."
+    },
+    {
+      "id": "oop-hard-021",
+      "question": "What is weak reference and when is it used?",
+      "options": [
+        "A reference that prevents garbage collection",
+        "A reference that doesn't prevent garbage collection and is used for caching",
+        "A reference to primitive types",
+        "A reference that never changes"
+      ],
+      "correct_answer": "A reference that doesn't prevent garbage collection and is used for caching",
+      "level": "hard",
+      "explanation": "Weak references don't prevent their referents from being garbage collected and are commonly used in caching scenarios where memory pressure should cause cache eviction."
+    },
+    {
+      "id": "oop-hard-022",
+      "question": "What is the difference between PermGen and Metaspace?",
+      "options": [
+        "No difference",
+        "PermGen was fixed size heap area, Metaspace is native memory area",
+        "Metaspace was fixed size, PermGen is dynamic",
+        "Both are the same memory area"
+      ],
+      "correct_answer": "PermGen was fixed size heap area, Metaspace is native memory area",
+      "level": "hard",
+      "explanation": "PermGen (Permanent Generation) was a fixed-size area in heap for class metadata in Java 7 and earlier, while Metaspace (Java 8+) uses native memory and can grow dynamically."
+    },
+    {
+      "id": "oop-hard-023",
+      "question": "What is class loading delegation model?",
+      "options": [
+        "Classes are loaded randomly",
+        "Parent classloader is asked first before child loads the class",
+        "Child classloader loads first",
+        "All classloaders load simultaneously"
+      ],
+      "correct_answer": "Parent classloader is asked first before child loads the class",
+      "level": "hard",
+      "explanation": "The delegation model ensures that parent classloaders are given the opportunity to load a class before child classloaders, maintaining class loading hierarchy and security."
+    },
+    {
+      "id": "oop-hard-024",
+      "question": "What is the purpose of ThreadLocal in Java?",
+      "options": [
+        "To create new threads",
+        "To provide thread-local variables where each thread has its own copy",
+        "To synchronize threads",
+        "To stop threads"
+      ],
+      "correct_answer": "To provide thread-local variables where each thread has its own copy",
+      "level": "hard",
+      "explanation": "ThreadLocal provides thread-local variables where each thread accessing such a variable has its own, independently initialized copy of the variable."
+    },
+    {
+      "id": "oop-hard-025",
+      "question": "What can cause memory leaks in Java despite garbage collection?",
+      "options": [
+        "Java never has memory leaks",
+        "Holding references to unused objects, static collections, listeners not removed",
+        "Creating too many objects",
+        "Using primitive types"
+      ],
+      "correct_answer": "Holding references to unused objects, static collections, listeners not removed",
+      "level": "hard",
+      "explanation": "Memory leaks occur when objects that should be garbage collected are still referenced (like in static collections, event listeners, or ThreadLocal variables that aren't cleaned up)."
+    },
+    {
+      "id": "oop-hard-026",
+      "question": "What is the diamond operator and type inference in Java?",
+      "options": [
+        "A mathematical operator",
+        "Empty angle brackets <> that allow compiler to infer generic types",
+        "A comparison operator",
+        "An inheritance operator"
+      ],
+      "correct_answer": "Empty angle brackets <> that allow compiler to infer generic types",
+      "level": "hard",
+      "explanation": "The diamond operator <> (introduced in Java 7) allows the compiler to infer generic type parameters from the context, reducing verbosity in generic instantiation."
+    },
+    {
+      "id": "oop-hard-027",
+      "question": "What is PECS principle in Java generics?",
+      "options": [
+        "Producer Extends, Consumer Super - guideline for wildcard usage",
+        "A design pattern",
+        "A coding convention",
+        "A compilation rule"
+      ],
+      "correct_answer": "Producer Extends, Consumer Super - guideline for wildcard usage",
+      "level": "hard",
+      "explanation": "PECS (Producer Extends Consumer Super) is a guideline for using wildcards: use '? extends T' when you only read from a collection (producer), and '? super T' when you only write to it (consumer)."
+    },
+    {
+      "id": "oop-hard-028",
+      "question": "What is the purpose of @SafeVarargs annotation?",
+      "options": [
+        "To make methods safe",
+        "To suppress unchecked warnings related to varargs with generics",
+        "To validate method parameters",
+        "To prevent method overriding"
+      ],
+      "correct_answer": "To suppress unchecked warnings related to varargs with generics",
+      "level": "hard",
+      "explanation": "@SafeVarargs suppresses unchecked warnings related to varargs usage with generics, indicating that the method doesn't perform unsafe operations on its varargs parameter."
+    },
+    {
+      "id": "oop-hard-029",
+      "question": "What is compact strings optimization in Java?",
+      "options": [
+        "Compressing string values",
+        "Using byte array instead of char array for Latin-1 strings to save memory",
+        "Removing spaces from strings",
+        "Making strings immutable"
+      ],
+      "correct_answer": "Using byte array instead of char array for Latin-1 strings to save memory",
+      "level": "hard",
+      "explanation": "Compact strings (Java 9+) optimization uses byte arrays for strings containing only Latin-1 characters, reducing memory usage by half compared to char arrays."
+    },
+    {
+      "id": "oop-hard-030",
+      "question": "What is the module system (JPMS) and its impact on encapsulation?",
+      "options": [
+        "A design pattern",
+        "Strong encapsulation at module level, packages can be hidden from other modules",
+        "A way to create objects",
+        "A compilation optimization"
+      ],
+      "correct_answer": "Strong encapsulation at module level, packages can be hidden from other modules",
+      "level": "hard",
+      "explanation": "Java Platform Module System (JPMS) introduced in Java 9 provides strong encapsulation at the module level, allowing packages to be hidden from other modules even if they're public within the module."
+    }
+  ]
+}
