@@ -75,8 +75,8 @@ It combines **explanations, pseudocode, code snippets, and time complexity analy
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/yourusername/DsaAlgoApp.git
-   cd DsaAlgoApp
+   [git clone https://github.com/yourusername/DsaAlgoApp.git
+   cd DsaAlgoApp](https://github.com/Ravi718r/DsAlgo.git)
    ```
 2. Open the project in **Android Studio**.
 3. Sync Gradle dependencies.
