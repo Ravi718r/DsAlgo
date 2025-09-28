@@ -104,7 +104,7 @@ This project is licensed under the **MIT License**.
 
 Developed with ❤️ by **Ravi Yadav**
 
-* 📧 [Email](mynameraviyadav@gmail.com)
+* 📧 mynameraviyadav@gmail.com
 * 🌐 [[ LinkedIn ](https://www.linkedin.com/in/ravi-yadav-191955218/)]
 
 ---
